@@ -1,0 +1,204 @@
+{% extends "app/layout.html" %}
+{% block content %}
+
+<div class="col-sm-12" id="filter-criteria">
+    Showing results for ... <br>
+    <div>
+        <li> Resturants located within {{radius}} miles of {{location}}
+    </div>
+    <div>
+        {% if user_limit %}
+        <li>
+            Limited to {{user_limit}} results
+            {% endif %}
+    </div>
+    <div>
+        {% if price %}
+        <li>
+            Prices:
+            {% for p in price %}
+            {{p}}
+            {% if not loop.last %}
+            ,
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+    </div>
+    <div>
+        {% if open_now %}
+        <li>
+            Open Now
+            {% endif %}
+    </div>
+    <div>
+        {% if diet_restrict %}
+        <li>
+            Dietary Restrictions:
+            {% for d in diet_restrict %}
+            {{d|title}}
+            {% if not loop.last %}
+            ,
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+    </div>
+    <div>
+        {% if taste %}
+        <li>
+            Tastes:
+            {% for t in taste %}
+            {{t|title}}
+            {% if not loop.last %}
+            ,
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+    </div>
+    <div>
+        {% if temp %}
+        <li>
+            Temperatures:
+            {% for t in temp %}
+            {{t|title}}
+            {% if not loop.last %}
+            ,
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+    </div>
+</div>
+
+<div>
+    <div id="no-results" div class="flashes">
+        {% if not filtered_list %}
+        Sorry no restaurants match your criteria <i class="far fa-frown"></i> <br>
+        Please try to search again!
+        {% endif %}
+    </div>
+
+    {% for restaurant in filtered_list %}
+    <!-- {# {% for restaurant in response_info.businesses %} #} -->
+    <!-- <a href="{{restaurant.url}}">{{restaurant.name}}</a> <br>  url goes to yelp pg  -->
+    <div>
+        <div class="restaurant_name">
+            {{restaurant.name}}
+            <!--  <button type="button" class="btn btn-info" id= "my_button" value="{{restaurant.id}}"> More Info {{restaurant.id}} </button> -->
+        </div>
+
+        <!-- Collapsible Button -->
+        <p>
+            <button class="btn btn-success btn-sm" type="button" id="my_button{{restaurant.id}}" value="{{restaurant.id}}" data-toggle="collapse" data-target="#collapseExample{{restaurant.id}}" aria-expanded="false" aria-controls="collapseExample">
+                More Info
+            </button>
+            <button class="btn btn-success btn-sm" type="button" data-toggle="collapse" data-target="#multiCollapseExample{{restaurant.id}}" aria-expanded="false" aria-controls="multiCollapseExample2">
+                Add a Visit
+            </button>
+        </p>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="collapse multi-collapse" id="collapseExample{{restaurant.id}}">
+                    <div class="card card-body">
+                        <!-- More info to be added here by AJAX -->
+                        Avg Rating: {{restaurant.rating}} <br>
+                        Price: {{restaurant.price}} <br>
+                        Address: {{restaurant.location.display_address}} <br>
+                        Phone: {{restaurant.display_phone}} <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="collapse multi-collapse" id="multiCollapseExample{{restaurant.id}}">
+                    <div class="card card-body">
+
+                        <!-- Visit Form -->
+                        <form action="/foraging-foodie/new-visit" method="POST">
+                            <input type="hidden" name="yelp_id" value="{{restaurant.id}}">
+                            <input type="hidden" name="rest_name" value="{{restaurant.name}}">
+                            <div class="form-group row">
+                                <label for="inputDate" class="col-sm-2 col-form-label">Date</label>
+                                <div class="col-sm-5">
+                                    <input type="date" class="form-control" name="visit_date" id="inputDate" required>
+                                </div>
+                            </div>
+                            <fieldset class="form-group">
+                                <div class="row">
+                                    <legend class="col-form-label col-sm-2 pt-0">Rating</legend>
+                                    <div class="col-sm-6">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="rating" id="gridRadios1" value="1">
+                                            <label class="form-check-label" for="gridRadios1">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="rating" id="gridRadios2" value="2">
+                                            <label class="form-check-label" for="gridRadios2">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="rating" id="gridRadios3" value="3">
+                                            <label class="form-check-label" for="gridRadios3">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="rating" id="gridRadios4" value="4">
+                                            <label class="form-check-label" for="gridRadios4">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="rating" id="gridRadios5" value="5">
+                                            <label class="form-check-label" for="gridRadios5">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div id="visit-submit" class="form-group row">
+                                    <div class="col-sm-6">
+                                        <button type="submit" class="btn btn-success">Submit</button>
+                                    </div>
+                                </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="image">
+            <img class="yelp-image" src="{{restaurant.image_url}}">
+        </div>
+    </div>
+    <br>
+    {% endfor %}
+
+</div>
+
+
+{% endblock %}

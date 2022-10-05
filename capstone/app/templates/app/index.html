@@ -1,0 +1,36 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Jersey Foodie</h1>
+    {% if user.is_authenticated %}
+    <h2>Hello {{ user.username }}</h2>
+    {% else %}
+    <h2>Register or Login</h2>
+    {% endif %}
+    <p class="lead">When looking for food in New Jersey, look no further.</p>
+    <p><a href="{% url 'foodie' %}" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            Click here to begin with Yelp!
+        </p>
+        <p><a class="btn btn-default" href="{% url 'yelp' %}">Yelp! &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>The Python Package Index is a repository of software for the Python programming language.</p>
+        <p><a class="btn btn-default" href="https://pypi.org/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Microsoft Azure</h2>
+        <p>You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.</p>
+        <p><a class="btn btn-default" href="http://azure.microsoft.com">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}
