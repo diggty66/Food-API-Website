@@ -3,37 +3,16 @@
 {% block content %}
 
 <h2>{{ title }}</h2>
-<div class="row">
-    <div class="col-md-8">
-        <section id="Yelp">
-            <form action="." method="post" class="form-horizontal">
-                {% csrf_token %}
-                <h4>Search using term and location.</h4>
-                <hr />
-                <div class="form-group">
-                    <label for="term" class="col-md-2 control-label">Term</label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" name="term" id="term" placeholder=" e.g. dinner" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="location" class="col-md-2 control-label">Location</label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" name="location" id="location" placeholder=" e.g. San Francisco" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-offset-2 col-md-10">
-                        <input type="hidden" name="next" value="/" />
-                        <input type="submit" value="Search" class="btn btn-default" />
-                    </div>
-                </div>
-                {% if form.errors %}
-                <p class="validation-summary-errors">Please enter a correct term and location.</p>
-                {% endif %}
-            </form>
-        </section>
-    </div>
-</div>
-
+<form name='YelpForm' action="{% url 'app:yelp_main' %}" class="post-form" method="post">
+    {% csrf_token %}
+    <label for="term">Term: </label>
+    <input id="term" type="text" name="term" placeholder="Type..." value="{{ YelpForm.term }}">
+    <label for="location">Location: </label>
+    <input id="location" type="text" name="location" placeholder="Where..." value="{{ YelpForm.location }}">
+    <input type="submit" value="OK">
+</form>
+<body>
+    <h1>{{ yelp_data.business_names }}</h1>
+       
+</body>
 {% endblock %}

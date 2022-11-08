@@ -34,21 +34,23 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="app\admin.py">
+    <Compile Include="app\API\YelpAPI\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="app\forms.py" />
     <Compile Include="app\models.py" />
+    <Compile Include="app\templates\app\foodie.html">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app\tests.py" />
     <Compile Include="app\urls.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="app\views.py" />
-    <Compile Include="app\yelp.py">
+    <Compile Include="app\API\YelpAPI\yelp.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="app\__init__.py" />
-    <Compile Include="app\migrations\__init__.py" />
     <Compile Include="capstone\settings\development.py">
       <SubType>Code</SubType>
     </Compile>
@@ -66,8 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
+    <Folder Include="app\API\YelpAPI\" />
     <Folder Include="app\migrations\" />
     <Folder Include="app\media\" />
+    <Folder Include="app\API\" />
     <Folder Include="app\static\" />
     <Folder Include="app\static\app\" />
     <Folder Include="app\static\app\content\" />
@@ -80,9 +84,6 @@
     <Folder Include="capstone\settings\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\templates\app\foodie.html">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="app\templates\app\registration.html">
       <SubType>Code</SubType>
     </Content>
@@ -102,7 +103,6 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="requirements.txt" />
-    <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
     <Content Include="app\static\app\content\bootstrap.min.css" />
     <Content Include="app\static\app\content\site.css" />
