@@ -22,19 +22,12 @@ def get_secret(the_secret, debugging):
  
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-CSRF_COOKIE_SECURE=False
+CSRF_COOKIE_HTTPONLY = False
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE=True
 CSRF_COOKIE_DOMAIN = '127.0.0.1'
-
+CSRF_TRUSTED_ORIGINS = ['http://*', 'https://*']
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]'] 
- 
-# Database
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
  
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = get_secret('SECRET_KEY', DEBUG)
