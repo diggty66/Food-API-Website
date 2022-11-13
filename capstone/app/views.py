@@ -104,7 +104,7 @@ def yelping(request):
         term = request.POST['term']
         location = request.POST['location']
         form.save()
-        print("yelping", term, location)
+        yelp_main(request)
         if request.GET.get('OK') == 'OK':
             messages.success(request, "Search successful." )
             return redirect('yelping')
