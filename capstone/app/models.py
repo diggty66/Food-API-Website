@@ -3,36 +3,33 @@ from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 
 class Business(models.Model):
-    id = models.BigAutoField(primary_key=True)
     business_id = models.CharField(max_length=100)
     business_name = models.CharField(max_length=100)
     yelp_business_id = models.CharField(max_length=45, blank=True, null=True)
-    city = models.CharField(unique=True, max_length=100)
-    state = models.CharField(unique=True, max_length=100)
+    phone = models.CharField(max_length=100)
+    city = models.CharField(max_length=100)
+    state = models.CharField(max_length=100)
     address = models.CharField(max_length=100, blank=True, null=True)
     postal_code = models.CharField(max_length=15, blank=True, null=True)
-    latitude = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
-    longitude = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
+    latitude = models.DecimalField(max_digits=100, decimal_places=2, blank=True, null=True)
+    longitude = models.DecimalField(max_digits=100, decimal_places=2, blank=True, null=True)
     business_stars = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=False)
     business_review_count = models.IntegerField(blank=True, null=True)
     is_open = models.IntegerField(blank=True, null=True)
 
-    def clean(self):
-        if '.' not in str(self.latitude):
-            raise ValidationError('Input must be float!')
-
     class Meta:
-        managed = False
+        managed = True
         db_table = 'business'
-        #ordering = ['business_name', 'business_stars', 'is_open']
+        ordering = ['business_name', 'business_stars', 'is_open']
         verbose_name = 'Business Information'
         verbose_name_plural = "Business's Information"
 
     def __str__(self):
-        return self.business_name
+        return f"{self.business_id}, {self.business_name}, {self.yelp_business_id}, {self.phone},\
+        {self.city}, {self.state}, {self.address}, {self.postal_code}, {self.latitude}, {self.longitude},\
+        {self.business_stars}, {self.business_review_count}, {self.is_open}"
 
 class YelpInputModel(models.Model):
-    id = models.BigAutoField(primary_key=True)
     term = models.CharField(blank=True, null=False, max_length=100)
     location = models.CharField(blank=True, null=False, max_length=100)
 
