@@ -34,6 +34,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\API\maps\maps.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app\API\YelpAPI\__init__.py">
       <SubType>Code</SubType>
     </Compile>
@@ -68,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
+    <Folder Include="app\API\maps\" />
     <Folder Include="app\API\YelpAPI\" />
     <Folder Include="app\migrations\" />
     <Folder Include="app\media\" />
