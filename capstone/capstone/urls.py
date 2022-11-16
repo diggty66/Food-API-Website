@@ -1,7 +1,3 @@
-"""
-Definition of urls for capstone.
-"""
-
 from datetime import datetime
 from django.urls import re_path, path, include
 from django.contrib import admin
@@ -18,5 +14,6 @@ urlpatterns = [
     re_path('', include('app.urls', namespace='app')),
     re_path(r'^logout/$', views.user_logout, name='logout'),
     path('foodie/', views.foodie, name='foodie'),
-    path('yelping/', views.yelping, name='yelping'),
+    path(r'yelping/', views.yelping, name='yelping'),
+    path(r'home/yelping/', views.yelping, name='yelping'),
 ]

@@ -13,6 +13,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from .API.YelpAPI.yelp import yelp_main, query_api
 from django.views.decorators.csrf import csrf_exempt
+from .models import Business
 
 def index(request):
     return render(request,'app/index.html')
@@ -95,24 +96,35 @@ def user_login(request):
 
 @csrf_exempt
 def yelping(request):
-    if request.method == "POST":
-        form = YelpForm(request.POST or None)
-        if form.is_valid():
-            form.save(commit=False)
-            term = request.POST['term']
-            location = request.POST['location']
-            form.save()
-            print("yelping", term, location)
-            yelp_main(request, term, location)
+    
+    form = YelpForm(request.POST or None)
+
+    if form.is_valid():
+        form.save(commit=False)
+        term = request.POST['term']
+        location = request.POST['location']
+        form.save()
+        yelp_main(request)
+        if request.GET.get('OK') == 'OK':
             messages.success(request, "Search successful." )
-            return render(request, 'app/yelp.html', {'form' : form})
-        else:
-            form = YelpForm()
-        messages.error(request, "Unsuccessful Search. Invalid information.")
-        form = YelpForm()
+            return redirect('yelping')
+            #return render(request, 'app/yelp.html', {'form' : form})
+        else:    
+            messages.error(request, "Unsuccessful Search. Invalid information.")
+
+        assert isinstance(request, HttpRequest)
         
-    assert isinstance(request, HttpRequest)
-    return render(request, 'app/yelp.html')
+        yelp_data = Business.objects.all().order_by('-id').first()
+        dic = {
+            'yelp_data': yelp_data,
+            }
+        print(dic)
+    
+        return render(request, 'app/yelp.html', dic)
+    return render(request, 'app/yelp.html', {
+            'title':'Yelping',
+            'year':datetime.now().year,
+        })
 
 def register_request(request):
 	if request.method == "POST":

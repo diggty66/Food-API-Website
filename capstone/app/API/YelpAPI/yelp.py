@@ -11,6 +11,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render, redirect
 from app.models import Business
 from django.shortcuts import get_object_or_404
+from django.http import HttpResponseRedirect, HttpResponse
 
 API_KEY = 's7qwiM9RQ0la6t6Ji4NtqizS9nb96unAF6lZPwQhbEVOqMl9ecYLnVKqmCGJNGayb3VeERijxGgv8G9n0BbvF4i7zhAuNjTxYIq7LOI0tZiimIZDeomsVSm7AEUmY3Yx'
 
@@ -75,13 +76,9 @@ def query_api(request, term, location):
 
     with open('app/API/YelpAPI/yelp.json', 'w') as f:
         f.write(write_to_file)
-        
-    yelp_data = get_object_or_404(Business)
-    dic = {
-        'yelp_data': yelp_data,
-        }
-
-    return render(request, 'app/yelp.html', dic)
+    
+    return HttpResponse("OK")
+    #return render(request, 'app/yelp.html', dic)
 
 def db():
     
@@ -102,11 +99,11 @@ def db():
                 state varchar(20),
                 address varchar(100),
                 postal_code varchar(15),
-                latitude real(100),
-                longitude real(100),
-                business_stars real(10),
+                latitude float(100),
+                longitude float(100),
+                business_stars float(10),
                 business_review_count integer(10),
-                is_open integer(100)
+                is_open integer(1)
             );"""
     )
     
@@ -127,7 +124,7 @@ def db():
     # Execute the command and replace '?' with the each value
     # in 'values'. DO NOT build a string and replace manually.
     # the sqlite3 library will handle non safe strings by doing this.
-    sql = '''INSERT INTO Business (business_id, business_name, phone, city, yelp_business_id, state, address, postal_code, latitude, longitude, business_stars, business_review_count, is_open) VALUES(
+    sql = '''INSERT INTO Business (business_id, business_name, yelp_business_id, phone, city,  state, address, postal_code, latitude, longitude, business_stars, business_review_count, is_open) VALUES(
                 ?,
                 ?,
                 ?,
@@ -142,16 +139,18 @@ def db():
                 ?,
                 ?
             );'''
-    cur.execute(sql, (business_id, business_name, phone, city, yelp_business_id, state, address, postal_code, latitude, longitude, business_stars, business_review_count, is_open, ))
+    cur.execute(sql, (business_id, business_name, yelp_business_id, phone, city, state, address, postal_code, latitude, longitude, business_stars, business_review_count, is_open, ))
 
     conn.commit()
     conn.close()
 
 @csrf_exempt
 def yelp_main(request):
+    #request.session._get_or_create_session_key()
     term = request.POST.get('term')
     location = request.POST.get('location')
     db()
     print("yelp_api", term, location)
     query_api(request, term, location)
-    return render(request, 'app/yelp.html')
+    return HttpResponse("OK")
+    #return render(request, 'app/yelp.html')

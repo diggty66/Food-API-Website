@@ -3,16 +3,66 @@
 {% block content %}
 
 <h2>{{ title }}</h2>
-<form name='YelpForm' action="{% url 'app:yelp_main' %}" class="post-form" method="post">
+<form name='YelpForm' action="" class="post-form" method="post">
     {% csrf_token %}
     <label for="term">Term: </label>
     <input id="term" type="text" name="term" placeholder="Type..." value="{{ YelpForm.term }}">
     <label for="location">Location: </label>
     <input id="location" type="text" name="location" placeholder="Where..." value="{{ YelpForm.location }}">
-    <input type="submit" value="OK">
+    <input type="submit" value="OK" name="OK">
 </form>
-<body>
-    <h1>{{ yelp_data.business_names }}</h1>
-       
-</body>
-{% endblock %}
+<ul>
+    <li>
+        <label for="business_id">business_id: </label>
+        {{ yelp_data.business_id }}
+    </li>
+    <li>
+        <label for="business_name">business_name: </label>
+        {{ yelp_data.business_name }}
+    </li>
+    <li>
+        <label for="yelp_business_id">yelp_business_id: </label>
+        {{ yelp_data.yelp_business_id }}
+    </li>
+    <li>
+        <label for="phone">phone: </label>
+        {{ yelp_data.phone }}
+    </li>
+    <li>
+        <label for="city">city: </label>
+        {{ yelp_data.city }}
+    </li>
+    <li>
+        <label for="state">state: </label>
+        {{ yelp_data.state }}
+    </li>
+    <li>
+        <label for="address">address: </label>
+        {{ yelp_data.address }}
+    </li>
+    <li>
+        <label for="postal_code">postal_code: </label>
+        {{ yelp_data.postal_code }}
+    </li>
+    <li>
+        <label for="latitude">latitude: </label>
+        {{ yelp_data.latitude }}
+    </li>
+    <li>
+        <label for="longitude">longitude: </label>
+        {{ yelp_data.longitude }}
+    </li>
+    <li>
+        <label for="business_stars">business_stars: </label>
+        {{ yelp_data.business_stars }}
+    </li>
+    <li>
+        <label for="business_review_count">business_review_count: </label>
+        {{ yelp_data.business_review_count }}
+    </li>
+    <li>
+        <label for="is_open">is_open: </label>
+        {{ yelp_data.is_open }}
+    </li>
+</ul>
+    {% endblock %}
