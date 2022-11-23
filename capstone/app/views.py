@@ -5,15 +5,16 @@ Definition of views.
 from datetime import datetime
 from urllib.error import HTTPError
 from django.shortcuts import render, redirect
-from .forms import NewUserForm, YelpForm
+from .forms import NewUserForm, YelpForm, GoogleForm
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse, HttpRequest
 from django.urls import reverse
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from .API.YelpAPI.yelp import yelp_main, query_api
+from .API.MapsAPI.maps import googlecode
 from django.views.decorators.csrf import csrf_exempt
-from .models import Business
+from .models import Business, Googlemodel
 
 def index(request):
     return render(request,'app/index.html')
@@ -137,3 +138,33 @@ def register_request(request):
 		messages.error(request, "Unsuccessful registration. Invalid information.")
 	form = NewUserForm()
 	return render (request=request, template_name="app/registration.html", context={"register_form":form})
+
+@csrf_exempt
+def googling(request):
+    
+    form = GoogleForm(request.POST or None)
+
+    if form.is_valid():
+        form.save(commit=False)
+        Foodinput = request.POST['Foodinput']
+        form.save()
+        googlecode(Foodinput)
+        if request.GET.get('OK') == 'OK':
+            messages.success(request, "Search successful." )
+            return redirect('googling')
+            #return render(request, 'app/googleresults.html', {'form' : form})
+        else:    
+            messages.error(request, "Unsuccessful Search. Invalid information.")
+
+        assert isinstance(request, HttpRequest)
+        
+        google_data = Googlemodel.objects.all().order_by('-id')
+        dic = {
+            'google_data': google_data,
+        }
+    
+        return render(request, 'app/googleresults.html', dic)
+    return render(request, 'app/googleresults.html', {
+            'title':'Googling',
+            'year':datetime.now().year,
+     })

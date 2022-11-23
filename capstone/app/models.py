@@ -29,6 +29,26 @@ class Business(models.Model):
         {self.city}, {self.state}, {self.address}, {self.postal_code}, {self.latitude}, {self.longitude},\
         {self.business_stars}, {self.business_review_count}, {self.is_open}"
 
+class Googlemodel(models.Model):
+    Resname = models.CharField(max_length = 100)
+    Address = models.CharField(max_length = 100)
+    Lat = models.CharField(max_length = 100)
+    Long = models.CharField(max_length = 100)
+
+    class Meta:
+        managed = True
+        db_table = 'Googlemodel'
+
+    def __str__(self):
+        return f"{self.Resname}, {self.Address}, {self.Lat}, {self.Long}"
+
+class GoogleInputmodel(models.Model):
+    Foodinput=models.CharField(blank=True, null=False, max_length = 100)
+
+    class Meta:
+        managed = True
+        db_table = 'GoogleInputmodel'
+
 class YelpInputModel(models.Model):
     term = models.CharField(blank=True, null=False, max_length=100)
     location = models.CharField(blank=True, null=False, max_length=100)
