@@ -84,6 +84,7 @@
     <Folder Include="capstone\settings\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\templates\app\googleresults.html" />
     <Content Include="app\templates\app\registration.html">
       <SubType>Code</SubType>
     </Content>
