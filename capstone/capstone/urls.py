@@ -17,4 +17,6 @@ urlpatterns = [
     path(r'yelping/', views.yelping, name='yelping'),
     path(r'home/yelping/', views.yelping, name='yelping'),
     path('googling/', views.googling, name='googling'),
+    path('nutritioning/', views.nutritioning, name='nutritioning'),
+
 ]
