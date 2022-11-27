@@ -1,0 +1,24 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}</h2>
+<form name='NutritionForm' action="" class="post-form" method="post">
+    {% csrf_token %}
+    <label for="Nutritioninput">Enter the resturaunt who's menu you want to view: </label>
+    <input id="Nutritioninput" type="text" name="Nutritioninput" placeholder="Type..." value="{{ NutritionForm.Nutritioninput }}">
+    <input type="submit" value="OK" name="OK">
+</form>
+
+{%   for g in nutrition_data   %}
+<ul>
+    <li>
+        <td>{{ g.ItemID }}</td>
+        <td>{{ g.MenuItem }}</td>
+        <td>{{ g.Resturaunt }}</td>
+    </li>
+</ul>
+{%   endfor   %}
+
+
+    {% endblock %}
