@@ -1,0 +1,62 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}</h2>
+<form name='FoodNutrientsForm' action="" class="post-form" method="post">
+    {% csrf_token %}
+    <label for="Nutrientsinput">Enter the food you want nutrition information for: </label>
+    <input id="Nutrientsinput" type="text" name="Nutrientsinput" placeholder="Type..." value="{{ FoodNutrientsForm.Nutrientsinput }}">
+    <input type="submit" value="OK" name="OK">
+</form>
+<ul>
+    <li>
+        <label for="name">name: </label>
+        {{ nutrients_data.name }}
+    </li>
+    <li>
+        <label for="calories">calories: </label>
+        {{ nurtients_data.calories }}
+    </li>
+    <li>
+        <label for="serving_size_g">serving_size_g: </label>
+        {{ nutrients_data.serving_size_g }}
+    </li>
+    <li>
+        <label for="fat_total_g">fat_total_g: </label>
+        {{ nutrients_data.fat_total_g }}
+    </li>
+    <li>
+        <label for="fat_saturated_g">fat_saturated_g: </label>
+        {{ nutrients_data.fat_saturated_g }}
+    </li>
+    <li>
+        <label for="protein_g">protein_g: </label>
+        {{ nutrients_data.protein_g }}
+    </li>
+    <li>
+        <label for="sodium_mg">sodium_mg: </label>
+        {{ nutrients_data.sodium_mg }}
+    </li>
+    <li>
+        <label for="potassium_mg">potassium_mg: </label>
+        {{ nutrients_data.potassium_mg }}
+    </li>
+    <li>
+        <label for="cholesterol_mg">cholesterol_mg: </label>
+        {{ nutrients_data.choleterol_mg }}
+    </li>
+    <li>
+        <label for="carbohydrates_total_g">carbohydrates_total_g: </label>
+        {{ nutrients_data.carbohydrates_total_g }}
+    </li>
+    <li>
+        <label for="fiber_g">fiber_g: </label>
+        {{ nutrients_data.fiber_g }}
+    </li>
+    <li>
+        <label for="sugar_g">sugar_g: </label>
+        {{ nutrients_data.sugar_g }}
+    </li>
+</ul>
+{% endblock %}
