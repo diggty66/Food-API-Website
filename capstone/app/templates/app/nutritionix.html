@@ -10,15 +10,14 @@
     <input type="submit" value="OK" name="OK">
 </form>
 
-{%   for g in nutrition_data   %}
+
 <ul>
     <li>
-        <td>{{ g.ItemID }}</td>
-        <td>{{ g.MenuItem }}</td>
-        <td>{{ g.Resturaunt }}</td>
+        <td>{{ nutrition_data.item_id }}</td>
+        <td>{{ nutrition_data.item_name }}</td>
+        <td>{{ nutrition_data.resturaunt_name }}</td>
     </li>
 </ul>
-{%   endfor   %}
 
 
     {% endblock %}
