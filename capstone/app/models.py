@@ -49,6 +49,28 @@ class GoogleInputmodel(models.Model):
         managed = True
         db_table = 'GoogleInputmodel'
 
+class Nutritionmodel(models.Model):
+    ItemID = models.CharField(max_length = 100)
+    MenuItem = models.CharField(max_length = 100)
+    Resturaunt = models.CharField(max_length = 100)
+
+    class Meta:
+        managed = True
+        db_table = 'Food_Items'
+
+    def __str__(self):
+        return f"{self.ItemID}, {self.MenuItem}, {self.Resturaunt}"
+
+
+
+class NutritionInputmodel(models.Model):
+    Nutritioninput=models.CharField(blank=True, null=False, max_length = 100)
+
+    class Meta:
+        managed = True
+        db_table = 'NutritionInputmodel'
+
+
 class YelpInputModel(models.Model):
     term = models.CharField(blank=True, null=False, max_length=100)
     location = models.CharField(blank=True, null=False, max_length=100)
