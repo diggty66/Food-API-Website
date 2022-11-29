@@ -3,6 +3,7 @@ from app import views
 from .API.YelpAPI.yelp import yelp_main, query_api
 from .API.MapsAPI.maps import googlecode
 from .API.SanjayAPI.nutrinix import nutritioncode
+from .API.RobleAPI.nutrition import foodnutritioncode
 
 # SET THE NAMESPACE!
 app_name = 'app'

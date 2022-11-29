@@ -71,6 +71,37 @@ class NutritionInputmodel(models.Model):
         managed = True
         db_table = 'NutritionInputmodel'
 
+class Foodnutritionmodel(models.Model):
+    qname = models.CharField(max_length = 100)
+    qcalories = models.CharField(max_length = 100)
+    qserving = models.CharField(max_length = 100)
+    qfattotal = models.CharField(max_length = 100)
+    qfatsat = models.CharField(max_length = 100)
+    qprotein = models.CharField(max_length = 100)
+    qsodium = models.CharField(max_length = 100)
+    qpotassium = models.CharField(max_length = 100)
+    qcholesterol = models.CharField(max_length = 100)
+    qcarb = models.CharField(max_length = 100)
+    qfibe = models.CharField(max_length = 100)
+    qsugar = models.CharField(max_length = 100)
+    
+
+    class Meta:
+        managed = True
+        db_table = 'NutritionFix'
+
+    def __str__(self):
+        return f"{self.qname}, {self.qcalories}, {self.qserving}, {self.qfattotal}, {self.qfatsat}, {self.qprotein}, {self.qpotassium}, {self.qcholesterol}, {self.qcarb}, {self.qfibe}, {self.qsugar}"
+
+
+
+class FoodnutritionInputmodel(models.Model):
+    Macroinput=models.CharField(blank=True, null=False, max_length = 100)
+
+    class Meta:
+        managed = True
+        db_table = 'FoodNutritionInputmodel'
+
 
 class YelpInputModel(models.Model):
     term = models.CharField(blank=True, null=False, max_length=100)

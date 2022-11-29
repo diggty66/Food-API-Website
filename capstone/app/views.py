@@ -199,3 +199,33 @@ def nutritioning(request):
             'title':'Nutritioning',
             'year':datetime.now().year,
      })
+@csrf_exempt
+def foodmacros(request):
+    
+    form = FoodNutrientsForm(request.POST or None)
+
+    if form.is_valid():
+        form.save(commit=False)
+        Macroinput = request.POST['Macroinput']
+        form.save()
+        foodnutritioncode(Macroinput)
+        if request.GET.get('OK') == 'OK':
+            messages.success(request, "Search successful." )
+            return redirect('foodmacros')
+           
+        else:    
+            messages.error(request, "Unsuccessful Search. Invalid information.")
+
+        assert isinstance(request, HttpRequest)
+        
+        foodnutrition_data = foodnutritionmodel.objects.all().order_by('-id')
+        dic = {
+            'foodnutrition': foodnutrition_data,
+        }
+    
+        return render(request, 'app/foodnutrients.html', dic)
+    return render(request, 'app/foodnutrients.html', {
+            'title':'Foodmacros',
+            'year':datetime.now().year,
+     })
+     

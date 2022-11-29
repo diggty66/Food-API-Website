@@ -2,7 +2,7 @@ from django import forms
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth.models import User
-from .models import User, Business, YelpInputModel, Googlemodel, GoogleInputmodel, NutritionInputmodel, Nutritionmodel
+from .models import User, Business, YelpInputModel, Googlemodel, GoogleInputmodel, NutritionInputmodel, Nutritionmodel, Foodnutritionmodel, FoodnutritionInputmodel
 
 
 class BootstrapAuthenticationForm(AuthenticationForm):
@@ -88,3 +88,11 @@ class NutritionForm(forms.ModelForm):
     class Meta:
         model = NutritionInputmodel
         fields = ("Nutritioninput",) 
+
+class FoodNutrientsForm(forms.ModelForm):
+    Macroinput = forms.CharField(max_length=254, widget=forms.TextInput({'class': 'form-control',
+                                   'placeholder': 'Macroinput'}))
+    
+    class Meta:
+        model = NutritionInputmodel
+        fields = ("Macroinput",) 

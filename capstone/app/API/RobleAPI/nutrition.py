@@ -4,20 +4,23 @@ import sys
 import json
 non_bmp_map =dict.fromkeys(range (0x10000, sys.maxunicode+1), 0xfffd)
 
-query = 'apple and pear and pizza and fries and cheeseburger and pancakes'
-api_url = 'https://api.api-ninjas.com/v1/nutrition?query={}'.format(query)
-response = requests.get(api_url, headers={'X-Api-Key': '94NlwilwGgEF0vQlagmVag==spsVNqhqSR9o5iTg'})
-if response.status_code == requests.codes.ok:
-    print(response.json())
 
-else:
-    print("Error:", response.status_code, response.text)
+def foodnutritioncode(Macroinput):
 
 
+    query = input(Macroinput)
+    api_url = 'https://api.api-ninjas.com/v1/nutrition?query={}'
+    response = requests.get(api_url, headers={'X-Api-Key': '94NlwilwGgEF0vQlagmVag==spsVNqhqSR9o5iTg'})
+    if response.status_code == requests.codes.ok:
+        print(response.json())
 
-data = json.loads(response.text)
+    else:
+        print("Error:", response.status_code, response.text)
 
-def db():
+
+
+    data = json.loads(response.text)
+
 
     conn = sqlite3.connect('capstone/db.sqlite3')
     cur = conn.cursor()
