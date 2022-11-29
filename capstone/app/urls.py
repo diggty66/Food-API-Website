@@ -14,5 +14,6 @@ urlpatterns=[
     path('nutritioncode/', nutritioncode, name='nutritioncode' ),
     path('query_api/', query_api, name='query_api'),
     path('registration/', views.register_request, name='registration'),
+    path('foodnutritioncode/', foodnutritioncode, name= 'foodnutritioncode'),
     re_path(r'^user_login/$', views.user_login,name='user_login'),
 ]
