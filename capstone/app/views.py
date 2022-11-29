@@ -5,7 +5,7 @@ Definition of views.
 from datetime import datetime
 from urllib.error import HTTPError
 from django.shortcuts import render, redirect
-from .forms import NewUserForm, YelpForm, GoogleForm, NutritionForm
+from .forms import NewUserForm, YelpForm, GoogleForm, NutritionForm, FoodNutrientsForm
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse, HttpRequest
 from django.urls import reverse
@@ -14,8 +14,9 @@ from django.contrib import messages
 from .API.YelpAPI.yelp import yelp_main, query_api
 from .API.MapsAPI.maps import googlecode
 from .API.SanjayAPI.nutrinix import nutritioncode
+from .API.RobleAPI.nutrition import foodnutritioncode
 from django.views.decorators.csrf import csrf_exempt
-from .models import Business, Googlemodel, Nutritionmodel
+from .models import Business, Googlemodel, Nutritionmodel, Foodnutritionmodel
 
 def index(request):
     return render(request,'app/index.html')
@@ -218,7 +219,7 @@ def foodmacros(request):
 
         assert isinstance(request, HttpRequest)
         
-        foodnutrition_data = foodnutritionmodel.objects.all().order_by('-id')
+        foodnutrition_data = Foodnutritionmodel.objects.all().order_by('-id')
         dic = {
             'foodnutrition': foodnutrition_data,
         }
