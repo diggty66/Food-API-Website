@@ -219,9 +219,9 @@ def foodmacros(request):
 
         assert isinstance(request, HttpRequest)
         
-        foodnutrition_data = Foodnutritionmodel.objects.all().order_by('-id')
+        foodnutrition_data = Foodnutritionmodel.objects.all().order_by('-id').first()
         dic = {
-            'foodnutrition': foodnutrition_data,
+            'foodnutrition_data': foodnutrition_data,
         }
     
         return render(request, 'app/foodnutrients.html', dic)

@@ -94,7 +94,6 @@ class Foodnutritionmodel(models.Model):
         return f"{self.qname}, {self.qcalories}, {self.qserving}, {self.qfattotal}, {self.qfatsat}, {self.qprotein}, {self.qpotassium}, {self.qcholesterol}, {self.qcarb}, {self.qfibe}, {self.qsugar}"
 
 
-
 class FoodnutritionInputmodel(models.Model):
     Macroinput=models.CharField(blank=True, null=False, max_length = 100)
 
