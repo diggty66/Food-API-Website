@@ -12,10 +12,12 @@
 
 {%   for g in google_data   %}
 <ul>
-    <td>{{ g.Resname }}</td>
-    <td>{{ g.Address }}</td>
-    <td>{{ g.Lat }}</td>
-    <td>{{ g.Long }}</td>
+    <li>
+        <td>{{ g.Resname }}</td>
+        <td>{{ g.Address }}</td>
+        <td>{{ g.Lat }}</td>
+        <td>{{ g.Long }}</td>
+    </li>
 </ul>
 {%   endfor   %}
 
