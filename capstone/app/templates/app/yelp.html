@@ -1,5 +1,5 @@
 {% extends "app/layout.html" %}
-
+{% load static %}
 {% block content %}
 
 <h2>{{ title }}</h2>
@@ -11,58 +11,140 @@
     <input id="location" type="text" name="location" placeholder="Where..." value="{{ YelpForm.location }}">
     <input type="submit" value="OK" name="OK">
 </form>
-<ul>
-    <li>
-        <label for="business_id">business_id: </label>
-        {{ yelp_data.business_id }}
-    </li>
-    <li>
-        <label for="business_name">business_name: </label>
-        {{ yelp_data.business_name }}
-    </li>
-    <li>
-        <label for="yelp_business_id">yelp_business_id: </label>
-        {{ yelp_data.yelp_business_id }}
-    </li>
-    <li>
-        <label for="phone">phone: </label>
-        {{ yelp_data.phone }}
-    </li>
-    <li>
-        <label for="city">city: </label>
-        {{ yelp_data.city }}
-    </li>
-    <li>
-        <label for="state">state: </label>
-        {{ yelp_data.state }}
-    </li>
-    <li>
-        <label for="address">address: </label>
-        {{ yelp_data.address }}
-    </li>
-    <li>
-        <label for="postal_code">postal_code: </label>
-        {{ yelp_data.postal_code }}
-    </li>
-    <li>
-        <label for="latitude">latitude: </label>
-        {{ yelp_data.latitude }}
-    </li>
-    <li>
-        <label for="longitude">longitude: </label>
-        {{ yelp_data.longitude }}
-    </li>
-    <li>
-        <label for="business_stars">business_stars: </label>
-        {{ yelp_data.business_stars }}
-    </li>
-    <li>
-        <label for="business_review_count">business_review_count: </label>
-        {{ yelp_data.business_review_count }}
-    </li>
-    <li>
-        <label for="is_open">is_open: </label>
-        {{ yelp_data.is_open }}
-    </li>
-</ul>
+<div class="display">
+    <div class="property">
+        <font size="+2">
+            <label for="business_name">Business Name: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.business_name }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="phone">Business Phone: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.phone }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="address">Business Address: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.address }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="city">Business City: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.city }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="state">Business State: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.state }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="postal_code">Business Postal Code: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.postal_code }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="latitude">Business Latitude: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.latitude }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="longitude">Business Longitude: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.longitude }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="business_stars">Yelp Business Star Rating: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.business_stars }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="yelp_business_id">Yelp Business ID: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.yelp_business_id }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="business_id">Business ID: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.business_id }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="business_review_count">Yelp Business Review: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {{ yelp_data.business_review_count }}
+        </strong>
+    </div>
+    <div class="property">
+        <font size="+2">
+            <label for="is_open">Business Is Open: </label>
+        </font>
+    </div>
+    <div class="value">
+        <strong style="color: blue;">
+            {% if yelp_data.is_open %}
+            {{"Is open"}}
+            {% else %}
+            {{"Not open"}}
+            {% endif %}
+        </strong>
+    </div>
+</div>
     {% endblock %}

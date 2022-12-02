@@ -98,6 +98,9 @@
     <Content Include="app\API\SanjayAPI\nutrinix.json" />
     <Content Include="app\API\SanjayAPI\__pycache__\nutrinix.cpython-39.pyc" />
     <Content Include="app\API\SanjayAPI\__pycache__\__init__.cpython-39.pyc" />
+    <Content Include="app\static\app\content\custom.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="app\templates\app\foodnutrients.html" />
     <Content Include="app\templates\app\googleresults.html" />
     <Content Include="app\templates\app\nutritionix.html" />
