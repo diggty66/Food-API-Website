@@ -146,11 +146,8 @@ def db():
 
 @csrf_exempt
 def yelp_main(request):
-    #request.session._get_or_create_session_key()
     term = request.POST.get('term')
     location = request.POST.get('location')
     db()
-    print("yelp_api", term, location)
     query_api(request, term, location)
     return HttpResponse("OK")
-    #return render(request, 'app/yelp.html')

@@ -96,39 +96,7 @@ def user_login(request):
             return HttpResponse("Invalid login details given")
     else:
         return render(request, 'app/login.html', {})
-
-@csrf_exempt
-def yelping(request):
     
-    form = YelpForm(request.POST or None)
-
-    if form.is_valid():
-        form.save(commit=False)
-        term = request.POST['term']
-        location = request.POST['location']
-        form.save()
-        yelp_main(request)
-        if request.GET.get('OK') == 'OK':
-            messages.success(request, "Search successful." )
-            return redirect('yelping')
-            #return render(request, 'app/yelp.html', {'form' : form})
-        else:    
-            messages.error(request, "Unsuccessful Search. Invalid information.")
-
-        assert isinstance(request, HttpRequest)
-        
-        yelp_data = Business.objects.all().order_by('-id').first()
-        dic = {
-            'yelp_data': yelp_data,
-            }
-        print(dic)
-    
-        return render(request, 'app/yelp.html', dic)
-    return render(request, 'app/yelp.html', {
-            'title':'Yelping',
-            'year':datetime.now().year,
-        })
-
 def register_request(request):
 	if request.method == "POST":
 		form = NewUserForm(request.POST)
@@ -142,6 +110,38 @@ def register_request(request):
 	return render (request=request, template_name="app/registration.html", context={"register_form":form})
 
 @csrf_exempt
+def yelping(request):
+    
+    form = YelpForm(request.POST or None)
+
+    if form.is_valid():
+        form.save(commit=False)
+        term = request.POST['term']
+        location = request.POST['location']
+        form.save()
+        yelp_main(request)
+        if request.POST.get('OK') == 'OK':
+            messages.success(request, "Search successful." )
+        else:
+            messages.error(request, "Unsuccessful Search. Invalid information.")
+
+        assert isinstance(request, HttpRequest)
+        
+        yelp_data = Business.objects.all().order_by('-id').first()
+        dic = {
+            'yelp_data': yelp_data,
+            'title':'Yelp Search',
+            'year':datetime.now().year,
+            }
+    
+        return render(request, 'app/yelp.html', dic)
+        
+    return render(request, 'app/yelp.html', {
+        'title':'Yelp Search',
+        'year':datetime.now().year,
+    })
+
+@csrf_exempt
 def googling(request):
     
     form = GoogleForm(request.POST or None)
@@ -151,7 +151,7 @@ def googling(request):
         Foodinput = request.POST['Foodinput']
         form.save()
         googlecode(Foodinput)
-        if request.GET.get('OK') == 'OK':
+        if request.POST.get('OK') == 'OK':
             messages.success(request, "Search successful." )
             return redirect('googling')
             #return render(request, 'app/googleresults.html', {'form' : form})
@@ -181,7 +181,7 @@ def nutritioning(request):
         Nutritioninput = request.POST['Nutritioninput']
         form.save()
         nutritioncode(Nutritioninput)
-        if request.GET.get('OK') == 'OK':
+        if request.POST.get('OK') == 'OK':
             messages.success(request, "Search successful." )
             return redirect('nutritioning')
             #return render(request, 'app/googleresults.html', {'form' : form})
@@ -210,7 +210,7 @@ def foodmacros(request):
         Macroinput = request.POST['Macroinput']
         form.save()
         foodnutritioncode(Macroinput)
-        if request.GET.get('OK') == 'OK':
+        if request.POST.get('OK') == 'OK':
             messages.success(request, "Search successful." )
             return redirect('foodmacros')
            
