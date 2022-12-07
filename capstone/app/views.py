@@ -153,8 +153,6 @@ def googling(request):
         googlecode(Foodinput)
         if request.POST.get('OK') == 'OK':
             messages.success(request, "Search successful." )
-            return redirect('googling')
-            #return render(request, 'app/googleresults.html', {'form' : form})
         else:    
             messages.error(request, "Unsuccessful Search. Invalid information.")
 
@@ -166,6 +164,7 @@ def googling(request):
         }
     
         return render(request, 'app/googleresults.html', dic)
+
     return render(request, 'app/googleresults.html', {
             'title':'Googling',
             'year':datetime.now().year,

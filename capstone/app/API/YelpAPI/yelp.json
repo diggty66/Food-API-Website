@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "id": "PMW6BWzFvjI--okTQ4CVQg",
         "alias": "bombay-blue-indian-bistro-edison",
         "name": "Bombay Blue Indian Bistro",
@@ -10,6 +11,18 @@
         "phone": "+17329026099",
         "display_phone": "(732) 902-6099",
         "review_count": 301,
+=======
+        "id": "grVoVN3n0M7IV1jRUiHWHQ",
+        "alias": "burgerbarr-sewell-2",
+        "name": "BurgerBarr",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/LaJ1jVnsSZRxP2sPw9FjBA/o.jpg",
+        "is_claimed": true,
+        "is_closed": false,
+        "url": "https://www.yelp.com/biz/burgerbarr-sewell-2?adjust_creative=9aYQmmK21ApZ7TfokeTk1A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=9aYQmmK21ApZ7TfokeTk1A",
+        "phone": "+18562185830",
+        "display_phone": "(856) 218-5830",
+        "review_count": 242,
+>>>>>>> d154c933cc489a9906116089e42a107f8b5f1a63
         "categories": [
             {
                 "alias": "indpak",
@@ -20,10 +33,11 @@
                 "title": "Chinese"
             },
             {
-                "alias": "seafood",
-                "title": "Seafood"
+                "alias": "burgers",
+                "title": "Burgers"
             }
         ],
+<<<<<<< HEAD
         "rating": 4.0,
         "location": {
             "address1": "1963 Oak Tree Rd",
@@ -37,10 +51,26 @@
                 "1963 Oak Tree Rd",
                 "Ste 2",
                 "Edison, NJ 08820"
+=======
+        "rating": 4.5,
+        "location": {
+            "address1": "508 Hurffville - Cross Keys Rd",
+            "address2": "Ste 13",
+            "address3": null,
+            "city": "Sewell",
+            "zip_code": "08080",
+            "country": "US",
+            "state": "NJ",
+            "display_address": [
+                "508 Hurffville - Cross Keys Rd",
+                "Ste 13",
+                "Sewell, NJ 08080"
+>>>>>>> d154c933cc489a9906116089e42a107f8b5f1a63
             ],
             "cross_streets": ""
         },
         "coordinates": {
+<<<<<<< HEAD
             "latitude": 40.5739746689842,
             "longitude": -74.3669636109413
         },
@@ -48,6 +78,15 @@
             "https://s3-media3.fl.yelpcdn.com/bphoto/gsLb9GesCwYWLHwD1_FaGw/o.jpg",
             "https://s3-media4.fl.yelpcdn.com/bphoto/MeSJWuHvLyeZKKB4G2YUpA/o.jpg",
             "https://s3-media3.fl.yelpcdn.com/bphoto/q9C_l5WOIBCm-_LFpXYibg/o.jpg"
+=======
+            "latitude": 39.73975,
+            "longitude": -75.0773
+        },
+        "photos": [
+            "https://s3-media3.fl.yelpcdn.com/bphoto/LaJ1jVnsSZRxP2sPw9FjBA/o.jpg",
+            "https://s3-media2.fl.yelpcdn.com/bphoto/OhOQemWljfD-bBq6cgQ66g/o.jpg",
+            "https://s3-media1.fl.yelpcdn.com/bphoto/qKlpI9AqNytr3Ijun_Fugg/o.jpg"
+>>>>>>> d154c933cc489a9906116089e42a107f8b5f1a63
         ],
         "price": "$$",
         "hours": [
@@ -55,6 +94,7 @@
                 "open": [
                     {
                         "is_overnight": false,
+<<<<<<< HEAD
                         "start": "1130",
                         "end": "1530",
                         "day": 0
@@ -69,10 +109,21 @@
                         "is_overnight": false,
                         "start": "1130",
                         "end": "1530",
+=======
+                        "start": "1200",
+                        "end": "1900",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": false,
+                        "start": "1200",
+                        "end": "1900",
+>>>>>>> d154c933cc489a9906116089e42a107f8b5f1a63
                         "day": 2
                     },
                     {
                         "is_overnight": false,
+<<<<<<< HEAD
                         "start": "1700",
                         "end": "2130",
                         "day": 2
@@ -81,10 +132,15 @@
                         "is_overnight": false,
                         "start": "1130",
                         "end": "1530",
+=======
+                        "start": "1200",
+                        "end": "1900",
+>>>>>>> d154c933cc489a9906116089e42a107f8b5f1a63
                         "day": 3
                     },
                     {
                         "is_overnight": false,
+<<<<<<< HEAD
                         "start": "1700",
                         "end": "2130",
                         "day": 3
@@ -93,10 +149,15 @@
                         "is_overnight": false,
                         "start": "1130",
                         "end": "1530",
+=======
+                        "start": "1200",
+                        "end": "1900",
+>>>>>>> d154c933cc489a9906116089e42a107f8b5f1a63
                         "day": 4
                     },
                     {
                         "is_overnight": false,
+<<<<<<< HEAD
                         "start": "1700",
                         "end": "2130",
                         "day": 4
@@ -105,10 +166,15 @@
                         "is_overnight": false,
                         "start": "1130",
                         "end": "1530",
+=======
+                        "start": "1200",
+                        "end": "1900",
+>>>>>>> d154c933cc489a9906116089e42a107f8b5f1a63
                         "day": 5
                     },
                     {
                         "is_overnight": false,
+<<<<<<< HEAD
                         "start": "1700",
                         "end": "2130",
                         "day": 5
@@ -123,6 +189,10 @@
                         "is_overnight": false,
                         "start": "1700",
                         "end": "2130",
+=======
+                        "start": "1200",
+                        "end": "1745",
+>>>>>>> d154c933cc489a9906116089e42a107f8b5f1a63
                         "day": 6
                     }
                 ],
@@ -131,6 +201,7 @@
             }
         ],
         "transactions": [
+<<<<<<< HEAD
             "pickup",
             "delivery"
         ],
@@ -138,5 +209,9 @@
             "url": "https://www.yelp.com/raq/PMW6BWzFvjI--okTQ4CVQg?adjust_creative=9aYQmmK21ApZ7TfokeTk1A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=9aYQmmK21ApZ7TfokeTk1A#popup%3Araq",
             "use_case_text": "Message the Business"
         }
+=======
+            "delivery"
+        ]
+>>>>>>> d154c933cc489a9906116089e42a107f8b5f1a63
     }
 ]
