@@ -212,7 +212,7 @@ def foodmacros(request):
         foodnutritioncode(Macroinput)
         if request.POST.get('OK') == 'OK':
             messages.success(request, "Search successful." )
-            return redirect('foodmacros')
+            #return redirect('foodmacros')
            
         else:    
             messages.error(request, "Unsuccessful Search. Invalid information.")
