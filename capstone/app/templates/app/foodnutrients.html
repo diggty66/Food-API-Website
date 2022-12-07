@@ -1,73 +1,108 @@
 {% extends "app/layout.html" %}
-{% load static %}
-{% block content %}
-<style>
-    h2 {
-        text-align: center;
-    }
 
-    h1 {
-        text-align: center;
-    }
 
-    table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-    }
-
-    td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-    }
-
-    tr:nth-child(even) {
-        background-color: #dddddd;
-    }
-</style>
-<h2>Search for Nutrition facts</h2>
+<h2>{{ title }}</h2>
 <form name='FoodNutrientsForm' action="" class="post-form" method="post">
     {% csrf_token %}
     <label for="Macroinput">Enter the food you want nutrition information for: </label>
     <input id="Macroinput" type="text" name="Macroinput" placeholder="Type..." value="{{ FoodNutrientsForm.Macroinput }}">
     <input type="submit" value="OK" name="OK">
 </form>
-
-    <table>
-        <tr>
-            <th>Food Name</th>
-            <th>Calories</th>
-            <th>Serving Size</th>
-            <th>Fat Total</th>
-            <th>Fat Saturated</th>
-            <th>Protein</th>
-            <th>Sodium</th>
-            <th>Potassium Size</th>
-            <th>Cholesterol</th>
-            <th>Carbohydrates</th>
-            <th>Fiber</th>
-            <th>Sugar</th>
-            
-        </tr>
-        <tr>
-            {%   for foodnutrition_data in foodnutrition_data   %}
-            <td>{{ foodnutrition_data.qname }}</td>
-            <td>{{ foodnutrition_data.qcalories }}</td>
-            <td>{{ foodnutrition_data.qserving }}</td>
-            <td>{{ foodnutrition_data.qfattotal }}</td>
-            <td>{{ foodnutrition_data.qfatsat }}</td>
-            <td>{{ foodnutrition_data.qprotein }}</td>
-            <td>{{ foodnutrition_data.qsodium }}</td>
-            <td>{{ foodnutrition_data.qpotassium }}</td>
-            <td>{{ foodnutrition_data.qcholesterol }}</td>
-            <td>{{ foodnutrition_data.qcarb }}</td>
-            <td>{{ foodnutrition_data.qfibe }}</td>
-            <td>{{ foodnutrition_data.qsugar }}</td>
-            {% endfor %}
-        </tr>
-        </table>
-  
-
+<ul>
+    <li>
+        <font size="+2">
+        <label for="name">name: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qname }}
+    </strong>
+     
+    </li>
+    <li>
+        <font size="+2">
+        <label for="calories">calories: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qcalories }}
+    </strong>
+    </li>
+    
+    <li>
+        <font size="+2">
+        <label for="serving_size_g">serving_size_g: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qserving }}
+    </strong>
+    
+    </li>
+    <li>
+        <font size="+2">
+        <label for="fat_total_g">fat_total_g: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qfattotal }}
+    </strong>
+    
+    </li>
+    <li>
+        <font size="+2">
+        <label for="fat_saturated_g">fat_saturated_g: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qfatsat }}
+    </strong>
+    </li>
+    <li>
+        <font size="+2">
+        <label for="protein_g">protein_g: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qprotein }}
+    </strong>
+    </li>
+    <li>
+        <font size="+2">
+        <label for="sodium_mg">sodium_mg: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qsodium }}
+    </strong>
+    </li>
+    <li> <font size="+2">
+        <label for="potassium_mg">potassium_mg: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qpotassium }}
+    </strong>
+    </li>
+    <li> <font size="+2">
+        <label for="cholesterol_mg">cholesterol_mg: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qcholesterol }}
+    </strong>
+    </li>
+    <li> <font size="+2">
+        <label for="carbohydrates_total_g">carbohydrates_total_g: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qcarb }}
+    </strong>
+    </li>
+    <li> <font size="+2">
+        <label for="fiber_g">fiber_g: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qfibe }}
+    </strong>
+    </li>
+    <li> <font size="+2">
+        <label for="sugar_g">sugar_g: </label>
+    </font>
+    <strong style="color: blue;">
+        {{ foodnutrition_data.qsugar }}
+    </strong>
+    </li>
+</ul>
 {% endblock %}
-
