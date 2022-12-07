@@ -1,346 +1,258 @@
 [
    {
       "total": 146,
-      "max_score": 3.9198031,
+      "max_score": 3.7465363,
       "hits": [
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "516d9a42e3afed1038d004e9",
-            "_score": 3.9198031,
+            "_id": "521b95ca4a56d006d578b6d5",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "516d9a42e3afed1038d004e9",
-               "item_name": "Crispy Chicken Sandwich",
+               "item_id": "521b95ca4a56d006d578b6d5",
+               "item_name": "Diet Coke, Small",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "521b95ca4a56d006d578b6cf",
-            "_score": 3.9198031,
+            "_id": "521b95ca4a56d006d578b71a",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b6cf",
-               "item_name": "All-Natural Lemonade, Small",
+               "item_id": "521b95ca4a56d006d578b71a",
+               "item_name": "Dave's Double",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "521b95ca4a56d006d578b6d6",
-            "_score": 3.9198031,
+            "_id": "521b95ca4a56d006d578b726",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b6d6",
-               "item_name": "Dr Pepper, Small",
+               "item_id": "521b95ca4a56d006d578b726",
+               "item_name": "Spicy Chicken Sandwich",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "521b95ca4a56d006d578b6dc",
-            "_score": 3.9198031,
+            "_id": "52cdcca3051cb9eb32004146",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b6dc",
-               "item_name": "Sprite, Medium",
+               "item_id": "52cdcca3051cb9eb32004146",
+               "item_name": "Barq's Root Beer, Large",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "521b95ca4a56d006d578b71b",
-            "_score": 3.9198031,
+            "_id": "52cdcca3051cb9eb32004153",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b71b",
-               "item_name": "Dave's Single",
+               "item_id": "52cdcca3051cb9eb32004153",
+               "item_name": "Sprite, Small",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "521b95ca4a56d006d578b727",
-            "_score": 3.9198031,
+            "_id": "52cdcca4051cb9eb3200415f",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b727",
-               "item_name": "Apple Bites",
+               "item_id": "52cdcca4051cb9eb3200415f",
+               "item_name": "Brewed Unsweetened Iced Tea, Medium",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "521b95ca4a56d006d578b734",
-            "_score": 3.9198031,
+            "_id": "52cdcca4051cb9eb32004161",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b734",
-               "item_name": "Natural-Cut Fries, Small",
+               "item_id": "52cdcca4051cb9eb32004161",
+               "item_name": "Diet Coke, Medium",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "52cdcca3051cb9eb32004152",
-            "_score": 3.9198031,
+            "_id": "52cdcca4051cb9eb32004166",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "52cdcca3051cb9eb32004152",
-               "item_name": "Fanta Orange, Large",
+               "item_id": "52cdcca4051cb9eb32004166",
+               "item_name": "Fanta Orange, Medium",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "52cdcca4051cb9eb3200415b",
-            "_score": 3.9198031,
+            "_id": "52cdcca4051cb9eb3200416c",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "52cdcca4051cb9eb3200415b",
-               "item_name": "All-Natural Lemonade, Medium",
+               "item_id": "52cdcca4051cb9eb3200416c",
+               "item_name": "Sprite, Large",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "52cdcca4051cb9eb3200416d",
-            "_score": 3.9198031,
+            "_id": "52cdcca4051cb9eb320041c6",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "52cdcca4051cb9eb3200416d",
-               "item_name": "Strawberry Lemonade, Medium",
+               "item_id": "52cdcca4051cb9eb320041c6",
+               "item_name": "Classic Chocolate Frosty, Medium",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "52cdcca4051cb9eb320041c7",
-            "_score": 3.9198031,
+            "_id": "516d9a42e3afed1038d004e0",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "52cdcca4051cb9eb320041c7",
-               "item_name": "Vanilla Frosty, Medium",
+               "item_id": "516d9a42e3afed1038d004e0",
+               "item_name": "Jr. Cheeseburger Deluxe",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "69245542562139612ebbd3d0",
-            "_score": 3.9198031,
+            "_id": "ae492026632a5cb9feccd85b",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "69245542562139612ebbd3d0",
-               "item_name": "Jr. Natural-Cut Fries",
+               "item_id": "ae492026632a5cb9feccd85b",
+               "item_name": "Honey Butter Chicken Biscuit",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "69245542b6d94546d8930ca3",
-            "_score": 3.9198031,
+            "_id": "ae49202679b2756516b44c4c",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "69245542b6d94546d8930ca3",
-               "item_name": "Sweetened Iced Tea, Small",
+               "item_id": "ae49202679b2756516b44c4c",
+               "item_name": "Sausage Biscuit",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "ae492026034f78e07bf4dd49",
-            "_score": 3.9198031,
+            "_id": "ae492026c72044a327ea7c38",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "ae492026034f78e07bf4dd49",
-               "item_name": "Asiago Ranch Classic Chicken Club",
+               "item_id": "ae492026c72044a327ea7c38",
+               "item_name": "Regular Coffee, Large",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "ae4920261302f62459878105",
-            "_score": 3.9198031,
+            "_id": "6924554263d62e9de571868f",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "ae4920261302f62459878105",
-               "item_name": "Bacon Cheese Baked Potato",
+               "item_id": "6924554263d62e9de571868f",
+               "item_name": "Minute Maid Light Lemonade, Medium",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "ae49202672f43789e1a1359b",
-            "_score": 3.9198031,
+            "_id": "692455427faffa992aa36e88",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "ae49202672f43789e1a1359b",
-               "item_name": "Classic Chocolate Frosty, Small",
+               "item_id": "692455427faffa992aa36e88",
+               "item_name": "Chili & Cheese Baked Potato",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea563407fb1b88f37b7697",
-            "_score": 3.9198031,
+            "_id": "69245542a1ed7ac6f52e18c7",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "d3ea563407fb1b88f37b7697",
-               "item_name": "Honey Butter Biscuit",
+               "item_id": "69245542a1ed7ac6f52e18c7",
+               "item_name": "Southwest Avocado Salad, Entree",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea5634268aecf02e24b494",
-            "_score": 3.9198031,
+            "_id": "d3ea5634795da399ac930a3e",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "d3ea5634268aecf02e24b494",
-               "item_name": "Southwest Avocado Salad, Dressing",
+               "item_id": "d3ea5634795da399ac930a3e",
+               "item_name": "Big Bacon Classic Double",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea56347316c099b503a5c6",
-            "_score": 3.9198031,
+            "_id": "d3ea5634a8af73a666ceb131",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "d3ea56347316c099b503a5c6",
-               "item_name": "Apple Pecan Salad, Dressing",
+               "item_id": "d3ea5634a8af73a666ceb131",
+               "item_name": "Sausage, Egg & Cheese Biscuit",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea56348fa8916603333428",
-            "_score": 3.9198031,
+            "_id": "d3ea5634bd2d368a82ec5bd2",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "d3ea56348fa8916603333428",
-               "item_name": "Parmesan Caesar Salad, Entree",
+               "item_id": "d3ea5634bd2d368a82ec5bd2",
+               "item_name": "Breakfast Baconator",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea563495096b926a0c7115",
-            "_score": 3.9198031,
+            "_id": "d3ea5634c06cae0799ac7b42",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "d3ea563495096b926a0c7115",
-               "item_name": "Big Bacon Classic Triple",
+               "item_id": "d3ea5634c06cae0799ac7b42",
+               "item_name": "Spicy Jalapeno Popper Sandwich",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea5634a977fee274e59729",
-            "_score": 3.9198031,
+            "_id": "d3ea5634c163f0db3fc73970",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "d3ea5634a977fee274e59729",
-               "item_name": "Classic Bacon, Egg & Cheese Sandwich",
+               "item_id": "d3ea5634c163f0db3fc73970",
+               "item_name": "Spicy Pretzel Bacon Pub",
                "brand_name": "Wendy's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea5634d00e118f9049394e",
-            "_score": 3.9198031,
+            "_id": "d3ea5634fab84d272643d5f8",
+            "_score": 3.7465363,
             "fields": {
-               "item_id": "d3ea5634d00e118f9049394e",
-               "item_name": "Decaffeinated Coffee, Small",
-               "brand_name": "Wendy's"
-            }
-         },
-         {
-            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
-            "_type": "item",
-            "_id": "d3ea5634db07a81b0fa73c78",
-            "_score": 3.9198031,
-            "fields": {
-               "item_id": "d3ea5634db07a81b0fa73c78",
-               "item_name": "Bacon, Egg & Cheese Biscuit",
-               "brand_name": "Wendy's"
-            }
-         },
-         {
-            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
-            "_type": "item",
-            "_id": "d3ea5634df99ca8ff5dad273",
-            "_score": 3.9198031,
-            "fields": {
-               "item_id": "d3ea5634df99ca8ff5dad273",
-               "item_name": "Chocolate Frosty-ccino, Large",
-               "brand_name": "Wendy's"
-            }
-         },
-         {
-            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
-            "_type": "item",
-            "_id": "d3ea5634f2c648efb8264e76",
-            "_score": 3.9198031,
-            "fields": {
-               "item_id": "d3ea5634f2c648efb8264e76",
-               "item_name": "Bacon Double Stack",
-               "brand_name": "Wendy's"
-            }
-         },
-         {
-            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
-            "_type": "item",
-            "_id": "d3ea5634f881e5077fb6386d",
-            "_score": 3.9198031,
-            "fields": {
-               "item_id": "d3ea5634f881e5077fb6386d",
-               "item_name": "Pretzel Bacon Pub Double",
-               "brand_name": "Wendy's"
-            }
-         },
-         {
-            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
-            "_type": "item",
-            "_id": "c64044466f734771d6867607",
-            "_score": 3.9198031,
-            "fields": {
-               "item_id": "c64044466f734771d6867607",
-               "item_name": "Decaffeinated Coffee, Small Size",
-               "brand_name": "Wendy's"
-            }
-         },
-         {
-            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
-            "_type": "item",
-            "_id": "516d9a42e3afed1038d004df",
-            "_score": 3.8428025,
-            "fields": {
-               "item_id": "516d9a42e3afed1038d004df",
-               "item_name": "Jr. Cheeseburger",
-               "brand_name": "Wendy's"
-            }
-         },
-         {
-            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
-            "_type": "item",
-            "_id": "516d9a42e3afed1038d004e1",
-            "_score": 3.8428025,
-            "fields": {
-               "item_id": "516d9a42e3afed1038d004e1",
-               "item_name": "Jr. Bacon Cheeseburger",
-               "brand_name": "Wendy's"
-            }
-         },
-         {
-            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
-            "_type": "item",
-            "_id": "516d9a42e3afed1038d004e6",
-            "_score": 3.8428025,
-            "fields": {
-               "item_id": "516d9a42e3afed1038d004e6",
-               "item_name": "Grilled Chicken Sandwich",
+               "item_id": "d3ea5634fab84d272643d5f8",
+               "item_name": "Jalapeno Popper Salad, Entree",
                "brand_name": "Wendy's"
             }
          },
@@ -348,7 +260,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "521b95ca4a56d006d578b6d4",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "521b95ca4a56d006d578b6d4",
                "item_name": "Coca-Cola Zero Sugar, Small",
@@ -359,7 +271,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "521b95ca4a56d006d578b6da",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "521b95ca4a56d006d578b6da",
                "item_name": "Minute Maid Light Lemonade, Small",
@@ -370,7 +282,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "521b95ca4a56d006d578b6e1",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "521b95ca4a56d006d578b6e1",
                "item_name": "10 Piece Chicken Nuggets",
@@ -381,7 +293,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "521b95ca4a56d006d578b720",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "521b95ca4a56d006d578b720",
                "item_name": "Baconator",
@@ -392,7 +304,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "521b95ca4a56d006d578b725",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "521b95ca4a56d006d578b725",
                "item_name": "Son of Baconator",
@@ -403,7 +315,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "521b95ca4a56d006d578b732",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "521b95ca4a56d006d578b732",
                "item_name": "Chili, Small",
@@ -414,7 +326,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "52cdcca3051cb9eb32004142",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "52cdcca3051cb9eb32004142",
                "item_name": "All-Natural Lemonade, Large",
@@ -425,7 +337,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "52cdcca3051cb9eb32004147",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "52cdcca3051cb9eb32004147",
                "item_name": "Coca-Cola, Large",
@@ -436,7 +348,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "52cdcca4051cb9eb3200415e",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "52cdcca4051cb9eb3200415e",
                "item_name": "Barq's Root Beer, Medium",
@@ -447,7 +359,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "52cdcca4051cb9eb32004160",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "52cdcca4051cb9eb32004160",
                "item_name": "Coca-Cola Zero Sugar, Medium",
@@ -458,7 +370,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "52cdcca4051cb9eb32004165",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "52cdcca4051cb9eb32004165",
                "item_name": "Dr Pepper, Medium",
@@ -469,7 +381,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "52cdcca5051cb9eb320041eb",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "52cdcca5051cb9eb320041eb",
                "item_name": "6 Piece Chicken Nuggets",
@@ -479,8 +391,41 @@
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
+            "_id": "516d9a42e3afed1038d004df",
+            "_score": 3.623145,
+            "fields": {
+               "item_id": "516d9a42e3afed1038d004df",
+               "item_name": "Jr. Cheeseburger",
+               "brand_name": "Wendy's"
+            }
+         },
+         {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "516d9a42e3afed1038d004e1",
+            "_score": 3.623145,
+            "fields": {
+               "item_id": "516d9a42e3afed1038d004e1",
+               "item_name": "Jr. Bacon Cheeseburger",
+               "brand_name": "Wendy's"
+            }
+         },
+         {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "516d9a42e3afed1038d004e6",
+            "_score": 3.623145,
+            "fields": {
+               "item_id": "516d9a42e3afed1038d004e6",
+               "item_name": "Grilled Chicken Sandwich",
+               "brand_name": "Wendy's"
+            }
+         },
+         {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
             "_id": "692455423ce19968714427a9",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "692455423ce19968714427a9",
                "item_name": "Cheese Baked Potato",
@@ -491,7 +436,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "ae4920261f192854c40e0387",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "ae4920261f192854c40e0387",
                "item_name": "Sugar Cookie",
@@ -502,7 +447,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "ae4920262561031c5abc391d",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "ae4920262561031c5abc391d",
                "item_name": "Grilled Asiago Ranch Chicken Club",
@@ -513,7 +458,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "ae4920263bcb6e18a8f1f586",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "ae4920263bcb6e18a8f1f586",
                "item_name": "Jr. Classic Chocolate Frosty",
@@ -524,7 +469,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "ae492026a2dfd702e84c0013",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "ae492026a2dfd702e84c0013",
                "item_name": "Chocolate Chunk Cookie",
@@ -535,7 +480,7 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "c640926471428e8d236e93c0",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "c640926471428e8d236e93c0",
                "item_name": "Taco Salad",
@@ -546,10 +491,65 @@
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
             "_id": "d3ea563438ea5f3c39d99094",
-            "_score": 3.8428025,
+            "_score": 3.623145,
             "fields": {
                "item_id": "d3ea563438ea5f3c39d99094",
                "item_name": "10 Piece Spicy Chicken Nuggets",
+               "brand_name": "Wendy's"
+            }
+         },
+         {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "d3ea563446c846f14c34db31",
+            "_score": 3.623145,
+            "fields": {
+               "item_id": "d3ea563446c846f14c34db31",
+               "item_name": "Bacon, Egg & Swiss Croissant",
+               "brand_name": "Wendy's"
+            }
+         },
+         {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "d3ea56346afcee454b936eb5",
+            "_score": 3.623145,
+            "fields": {
+               "item_id": "d3ea56346afcee454b936eb5",
+               "item_name": "Grilled Pretzel Bacon Pub",
+               "brand_name": "Wendy's"
+            }
+         },
+         {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "d3ea56348a4a10f61e466b14",
+            "_score": 3.623145,
+            "fields": {
+               "item_id": "d3ea56348a4a10f61e466b14",
+               "item_name": "Pretzel Bacon Pub Cheeseburger",
+               "brand_name": "Wendy's"
+            }
+         },
+         {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "d3ea56348b64a56a7662410d",
+            "_score": 3.623145,
+            "fields": {
+               "item_id": "d3ea56348b64a56a7662410d",
+               "item_name": "Tropical Berry Lemonade, Small",
+               "brand_name": "Wendy's"
+            }
+         },
+         {
+            "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+            "_type": "item",
+            "_id": "d3ea5634968dee6edc63f8bf",
+            "_score": 3.623145,
+            "fields": {
+               "item_id": "d3ea5634968dee6edc63f8bf",
+               "item_name": "Fresh Baked Oatmeal Bar",
                "brand_name": "Wendy's"
             }
          }

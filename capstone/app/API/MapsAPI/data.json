@@ -1,6 +1,6 @@
 {
    "html_attributions" : [],
-   "next_page_token" : "AW30NDwDtHBJWskaVZjWT2vF0twZ1ALAdPRPIVOprgeAJB5jX2N3BIICoGxoTZMabjfbVL4Lv2a0JEK7Rf3bO6fRpwZD5NhPAUWP0natWhqQA06sSqNK_qH-4i-G45-eWXBC7l3DHQVNllrYiNoi8PK75pOUpIpb2K7__03B2w5ihxILthE9HjMPBI88o_G5oMn_soMWCY_6vNK96Hezq6-8CE5txUEZM6a3FnB81QJmcPYEl1rItIlXBvMZOpobO0GeiUYbDiq3OKRnW_3c-uqfLQICtNko3tBzNmPyibrha1DBeo1eK-4FAD6aMC-czwVY_iJG-vU_O-cVIQmOMTCt4bUSU6CIAkK4evS9Hu0YoygfoS6DYviNrAnL9MNtCiZ0J5mdutfY7RJsP-DGzcquvFxi23FA5DUPIo3E51WnV7Pe3MLkvIfv1RbZ3aF9AAYZRH46",
+   "next_page_token" : "AW30NDx0O3cdqNjVhEgYbfbuxpoVTYlA_wdOgVDd1drNNMOOQ4Nwh_Acdhgp_hA_Q-8xXSh0X1z53dudLzkIObEGCJHn098VqCmKwmuc9HfcwWyR7o_5pzHjuo2z7mjs-ykt94F1kfYAL4YGgbVOXzuKLyZ62itVaZ4SG2r5i1nWMm-n3p0_QwjO_yCgoeP8jNFUO5GIIBvKYN5RfMQkxOxLwympHNp6_Cqpy7q5nUdt8wC-hYrbqvAmEgT0F5uxLpP6uOFQCbxA4Vxmtw1nYQ9ChyoT24eab5T5eTjTTQiRJun5PgCb1J1hhFDD_yzjmIS8zTe99k30V_4p2U_6_bpkGKunwBX6O4NjoeVxjAP1mngemlNBSkQ7EcVNtR9Co29Sq8MdB12HPN3DpyoZPeK2qiKMEWr0CdITBOSBRbraO2In2kdgbEY9OBXmxMX9pIFH0mjZ",
    "results" : [
       {
          "business_status" : "OPERATIONAL",
@@ -26,7 +26,7 @@
          "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
          "name" : "Smashburger",
          "opening_hours" : {
-            "open_now" : false
+            "open_now" : true
          },
          "photos" : [
             {
@@ -34,7 +34,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/115046981018743296702\"\u003eJames Flaherty\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDzqvkbilAPlX_VTNsLFKq6858MdQ4CtLEfroChj65O5BRYz9K5KbYRzogWYfGY670nt1LYmQMudY7HIJsCrllaESOACPImY4HWp1Daix3jrNGuHTGvgxttxrFbMiiP1fgjqSZ1QvIrVraujBqRZjmIwwO4NhlbcCuUfDK6oGXBSDBNe",
+               "photo_reference" : "AW30NDxCYw8XYfFQj3EgBzZNQeUXIFq34dkrg8vEKQTtLc2pPCO6-RIuhApiaEUTQPv5B2fxd0iZ1z-zlT5Uwz098TNKHS07iW-JxJVB_RZMvt2Kaed1CWWgu5NMj_uSznEJ5u413_EP406myl1LMRMypQaxOyTWY3-KOW08AaxE3HkRHhVq",
                "width" : 4032
             }
          ],
@@ -88,7 +88,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/108381831451627998668\"\u003eBurger King\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDw7eaFHUOv_48wDqdY5DVrqbQpJk3w8tBmDyR8T1_YmqWOlsR7gARvVATQ7TxwlYKAde1zJ28pqcNUVGghqj7kBitXmKdv6UfHG6T2awjOLDDqKiz7jD2Gyshw1iJKtWIvJPRpYFnfNh5uw1pGzaCZuCrA0ZT4CGDQV_VpYth7wVkqQ",
+               "photo_reference" : "AW30NDwzzKNg6FlcxdcdAVfyxIzV2uYVUACV9i3wU_6SETdiYM0dvQpMI3LPiqFUBMO9HEYcpVpN_woQKAWdkQ7LW0IRwDVmzPNelDrQynwyb_I_qE0WI1WPOc5wig8dEEDW6IpAXHwXadtSvFbtTy2lMyj5-KwampnWPl3oTGRaq81Bova5",
                "width" : 1400
             }
          ],
@@ -135,7 +135,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/103188423706451532808\"\u003eCheckers Drive-In Restaurant\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDyeecnJ-CPa1XVhVW1lmrQ8C6y6ZvunnEsh4ayD90ThFDNa5fex6apzKWl2iG6kx_kbbRokOX9xlQuKsLam_BSp0ndCh-UOf96UVCfw-1Ig5vHZYvYH5qxc0PKqQGznsm_-exH2eMe3sqFYUoYQmQBnuiUvKCeg_o6-w5bK0Cr5HWba",
+               "photo_reference" : "AW30NDxwPhFxA1J74yRxfkKpsKCodNwh-t6xKRDJZGizVAusR3gzxwyE9FhjmCTfdhhpZndGVP8wEj-ylafOmvk0AVvpAYC5Ze9-SxK1_GZ86h_d8aS9_0Sy659m0ZaYxC9VuqaPKRICz-ka9thslUL4NIHfK-WfOyK-EG70xLuvUWDjxAtv",
                "width" : 3648
             }
          ],
@@ -149,52 +149,6 @@
          "reference" : "ChIJ1UKJKgXXxokRAqGA4dPLLj4",
          "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
          "user_ratings_total" : 722
-      },
-      {
-         "business_status" : "OPERATIONAL",
-         "formatted_address" : "1100 Delsea Dr, Glassboro, NJ 08028",
-         "geometry" : {
-            "location" : {
-               "lat" : 39.7246441,
-               "lng" : -75.1153599
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 39.72589357989272,
-                  "lng" : -75.11404307010729
-               },
-               "southwest" : {
-                  "lat" : 39.72319392010728,
-                  "lng" : -75.11674272989272
-               }
-            }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-         "icon_background_color" : "#FF9E67",
-         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-         "name" : "MrBeast Burger",
-         "opening_hours" : {
-            "open_now" : false
-         },
-         "photos" : [
-            {
-               "height" : 4160,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/102828113292139816308\"\u003eA Google User\u003c/a\u003e"
-               ],
-               "photo_reference" : "AW30NDyqUQWkDd2ENXlidkNtAHqfu-kfuV32VpXRzGFjhyefr2J4diwRNINFk-rVLoXR0FtOk7iizOrXm9jN-HsjJXOyfr3XX5EgVnE_4_6puAO6y6hwuukLeO84RevHf5ABed47BLr_KA0axSkq2bmonvHMpxcYsjto9qTwFs2v9Z2pb30o",
-               "width" : 3120
-            }
-         ],
-         "place_id" : "ChIJg1dzikbXxokRcSiSTsSqEFI",
-         "plus_code" : {
-            "compound_code" : "PVFM+VV Glassboro, New Jersey",
-            "global_code" : "87F6PVFM+VV"
-         },
-         "rating" : 3.4,
-         "reference" : "ChIJg1dzikbXxokRcSiSTsSqEFI",
-         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
-         "user_ratings_total" : 10
       },
       {
          "business_status" : "OPERATIONAL",
@@ -220,7 +174,7 @@
          "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
          "name" : "Alumni Grill @ Rowan Blvd",
          "opening_hours" : {
-            "open_now" : false
+            "open_now" : true
          },
          "photos" : [
             {
@@ -228,7 +182,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/103263229712301961212\"\u003eA Google User\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDxgxRRtr_D1UsiF3pUlPrN1KbH5R5GHIOf2165DDaNc456vw_Rj2fjE3ISNN_ePKVwLSUCqVX75xpp-_ABJJjf_SEQmU_i3Lf7Hq2nECdZbDUw3RRSboJSOmSHw1tkw9SM5r2PMdSghC_SUDC5nhloqUCqspiZX8_1Yc_5EyL6UVhBm",
+               "photo_reference" : "AW30NDwPhjvYCIwxPzt4Wxty1wsfeWdFC4sytAJMETGJLl9l2aVBfN3rm-4ZIy1Apg-S2bPuFR-iBHqU4V4ERtKrJs9N8g_d8fXUKkAvHIDd2pk5C4DzKyHkQlypQRdDQwIPvYBuBJpC_rV7rb4eEjzlu-GsVrdbAI7Nhetr_kJTjxegi7Ts",
                "width" : 5472
             }
          ],
@@ -275,7 +229,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/109138825096094077350\"\u003eWendy&#39;s\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDzXlpDSi4hXpnNAhO1_YuJvvKylSoo0pj_xYksNQz-zRSEwh55Ka4UGlVbCz_3rdlSPu1VP_pcMCh9BuZRVM3Bd524SeRuKRkPz9lahNnbnwM5mcVJDrUKhXObPvQF7mu42SJ7MHUqfo8HOajqCEWyO0f7jK26yw7LYD_Pefi4SDsgY",
+               "photo_reference" : "AW30NDxzHQ6N2BONPcioyWKOJSSFqFPkaqaEH4JuVK5bg8z5zQEVS2YYRx9hH870GH5AuA-sGRGIansnrS-dQnGkxVCEssOqxv04IzfmWH46GQGI2uXd5761esaollnFCtffOfuidtFH9iynbJVo-TIWlu7SfP_Ab4isIAsfv6k3wz-pnE0W",
                "width" : 816
             }
          ],
@@ -314,7 +268,7 @@
          "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
          "name" : "Burger Barr",
          "opening_hours" : {
-            "open_now" : false
+            "open_now" : true
          },
          "photos" : [
             {
@@ -322,7 +276,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/114366100199414024638\"\u003eRobert Levas\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDwLUc2DxmwCF7NQkxhwKKqKS79CrfnufGfTgTslX-AM6Ztxo9KCM-ouYgY_9O9gNYnBMGbznHpPcUpltEUnLmDsrJItqLxuwSU9wLZbX8c7EPslnBtwVkbyHEqy5GoqPVKa9SrehiRNnEAd31gRMUG88ppBoralT2tHAjYO2IrogRQ",
+               "photo_reference" : "AW30NDxnGkcpP3hZCiRZcvGwplXsB3q_BDlo2PcJ2HMncblelJHszv4u61SIq6-EBRD0VUxx1eWixXC0QMQUmzW6Yjzi1PvkHXyKppSMNWL2H9Tmy07dBWWo00Ig3CRGGz1CP4qZVMwm-RIdz4wAJ9lAUDeBe2RZi9U71-wU6pSf94pK-QA",
                "width" : 2268
             }
          ],
@@ -361,7 +315,7 @@
          "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
          "name" : "Landmark Americana",
          "opening_hours" : {
-            "open_now" : false
+            "open_now" : true
          },
          "photos" : [
             {
@@ -369,7 +323,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/111151354063491960622\"\u003eIvan Gomes\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDzdKVEsquJDD_EWUXPlZeN4DthzPirdTWytoB6KeVTgnSUPGc8oRkKNiVz9FXJXn75gCoV2Fy3wF9LxBXQrKyvSIFn5qEegrTD2OFJoIrSEbQ5RoupzKxO4oLzdURoGkP7eGAF_L93lfyUZSQXKbWz8Qt-nhofx2vtcIa8OCPYiLqsk",
+               "photo_reference" : "AW30NDyTUCmENNXrx3YqCssfLHFdJhcPBkRNnHQwkajApEyn51OY51_caryosns44XH3AbpbHQ4NI8lYFBallCO8cpLEYYQP2lYUiZlZGaGBG_M61OknqMXvsp7NhrJ5HcPM03gABO7evUkb1XsTb1iH0WDo4YQG-KlnhTv41HDt8FMRv8_3",
                "width" : 3024
             }
          ],
@@ -423,7 +377,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/100072472359148778107\"\u003eDanny Hughes\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDzeHrGs7Uc_bCmTh3YE2wXnrB8bjSWbbdYxgus5ZN44fGzBjAxuE1_VCntEuWjCMjBXgP11KiHK6LYrU239wTuiJEpIp2ZrJdYG8Z9h4yU_-fAeRhU7mkH4OgFcGuwEOGhBX7bCSTfJicTNTTCgLal31wtexP_O5_4wakMs8gO34v5E",
+               "photo_reference" : "AW30NDwzxcuUfcG-Q41HhcEl4uvVC3ExcJus3DmbgzHtWzzGY8e7ryVHPHFCoK0EpNvjyETACpiVdn-Dek_HAmCh_tSI-IPFVN023chnx7pGfCs_5X_OkzQYJQCbPE_4EQjOysGQRBC_08soJ3vcKqqKpVzWSEpSjVXCyGwHnwISATBB_xnk",
                "width" : 3120
             }
          ],
@@ -470,7 +424,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/105799409724041117428\"\u003eAngela Monique Robinson\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDyeOUlg-ZL0Uo5VFGgMynlF3woN0O6toa7-2Kwl2xS9R24vLYrSSKEUKcdA2tvioagd1rp1VHTHMTSwAZZXZ7c6uSlVq0roHSj1lpClZnv9-NGL43XPNvuQNHqEtmMX5dckYW1vHynR-IKor2rpwdggc_DGdUOlEfnOn79NL_o2Wd48",
+               "photo_reference" : "AW30NDxZ_r4QGLccfIAHVBV604uurNRKhv04I3317eAOj4n__vE9NphNGTvyf_h8Xl5SXsWMb_JfDdjFcFAit7893TcUWqpe_m4gpzRS9ESob6QZrufOLV9Aq_D1pFbeeV7A5wvYV6RPZEx4l44qaVWXarXwLCRm4a-5bQzc3tEKDQsZFacm",
                "width" : 3024
             }
          ],
@@ -517,7 +471,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/117714930629152436668\"\u003eMcDonald&#39;s\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDymi71MzuMn7p-3GwlHyddsT3B0IpDLTvnhZ-0_6EzaEmhLkJ1Rymqhn0B_NERswQiORl3A43ZrisAo39PgkqDscSkCF7nDlYFHqllWM9jWSjjmMP1rxypC2MrMbYAKpYMmxj_65_9g_nIFPcY8JtKAOVlSE1LihYEcSh_-DM2rp3t5",
+               "photo_reference" : "AW30NDw5VrI0j8OEuXP6pP-IWdBZ3q5TAtLTuU-BG_Y-XCQQZY6sq2tgkcoqfC7qNd_I3j6GlkAg5pj-4Z0JTcS7tanSbYJe_qz-P9UyUU52WmdaMofy0WdiBSiyJtkg_G0UlrGPessnMtSsLqXlSNa8xIq_zdvYlW_TRni9Mx7JrcKLTRLm",
                "width" : 1025
             }
          ],
@@ -538,6 +492,52 @@
             "establishment"
          ],
          "user_ratings_total" : 1266
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "1100 Delsea Dr, Glassboro, NJ 08028",
+         "geometry" : {
+            "location" : {
+               "lat" : 39.7246441,
+               "lng" : -75.1153599
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 39.72589357989272,
+                  "lng" : -75.11404307010729
+               },
+               "southwest" : {
+                  "lat" : 39.72319392010728,
+                  "lng" : -75.11674272989272
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "MrBeast Burger",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102828113292139816308\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AW30NDxtj6tGW5vfXZmggSOF6DJd8pugJZq9le9dWopoYe9mW_0DFOA5Y0zkFA__-CBtZmE1ygjCH3hdPwsn2V8UpcicZAQam4bF6QswX8m4BYZNvDZ-lLvdx-87rokvbgx21uNAwfBbllGv596bv53WqryxzF5ibx3i7f_I-0_OImQVPYhR",
+               "width" : 3120
+            }
+         ],
+         "place_id" : "ChIJg1dzikbXxokRcSiSTsSqEFI",
+         "plus_code" : {
+            "compound_code" : "PVFM+VV Glassboro, New Jersey",
+            "global_code" : "87F6PVFM+VV"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJg1dzikbXxokRcSiSTsSqEFI",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10
       },
       {
          "business_status" : "OPERATIONAL",
@@ -563,7 +563,7 @@
          "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
          "name" : "Heemo's Burgers",
          "opening_hours" : {
-            "open_now" : false
+            "open_now" : true
          },
          "photos" : [
             {
@@ -571,7 +571,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/117580198743732411185\"\u003eA Google User\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDx0UDmzNcCrjebU3cl0efMoUL8qsiuvlSnqu9I8bhGBVFnDVWLa-Y4IAWuGnFDcbF42Tomofobz4Z8Dy7h6VgntBitO0pcEaLrIV6zaXwLnyvEni0-FOMFC9rIfWfv5nPi57Akyrns49r_JRPBm5T5qvnZrKzoAGABTwiJycPx5QcvR",
+               "photo_reference" : "AW30NDysq5zwvfPlC976uCXZqD0pXMpP7vJAmxJn71tQxGiuB9Qx6fRO3OsHnRTx5KYhaoDFZTBFTG8Is9msCR1dA7XX0dmnumfc0QLMcdJwpzNLtrMI8EqaaDo1S3RVOM5qOM-wY4qys4efQicKrzk0Z61xwuwLvonYnODgu5GD162-SxvT",
                "width" : 1200
             }
          ],
@@ -617,7 +617,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/100210131141077428613\"\u003eFriendly&#39;s\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDy6DaO_RNhQVZpWVnKDzmvCok6duDQy_nMCRCEDhd8iMa47Y8W2O6l0paZuuB_wejuhfIlGAFZPaqv7Bo6qXTUyd5NS00xu1pb9sv7wvqR9qInk7z7MWq4O1nOhWpJnkrjIcaOiL1N7ifPRcNnSAOg2Q1O-FKnhW7FPBJwa_zHCOJY",
+               "photo_reference" : "AW30NDyM1BFeCiy1BH324wVcFuzOPxaJqpV23v9OOaSN05gcOu5u628GrAZOYOSKIm3k_KAjCm2ACl1TpVDq7uM3XHFVHEP7YMHgKlhJIHlD0q7mGhqqfELuh60eaBndqr2DTgF27gu0ZGjUm7a_UKM-jy_0yPvjSqP754VGGb1YOn1NgYE",
                "width" : 827
             }
          ],
@@ -656,7 +656,7 @@
          "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
          "name" : "Five Guys",
          "opening_hours" : {
-            "open_now" : false
+            "open_now" : true
          },
          "photos" : [
             {
@@ -664,7 +664,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/105788104480689457326\"\u003eDik Long\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDzEH4OITtPUWWDMdKxpCsCu_c43zVCk6Kcndi-awBxrYPpNluKtL7spHAhTkQlldI-0MSGevW4xnNyKRzRD33OJWp9-DOhwZa7L4JLbgjQ1cagWe5hZHSyp3t4E_FNhbzRGWHMzo0E9AFhvGFOkM6epnb8UlNFZ2fNlPQy9got6dcFk",
+               "photo_reference" : "AW30NDzKWq82Lp4V99PBKAddIfhvhTfPQvCyFkYCRm711ow1t_vPidw-eJixTbJ_H_Gv1WRcvZpivemBQ4UV3zeqoaNcqb3rMluHkWok-KCPSlP1-z20DCtj_6PRM0Pz-Skx74iq2mgWCeATTpIVPau5-aIlBRaiWutRBHF78cxnV1nozhGn",
                "width" : 1836
             }
          ],
@@ -717,7 +717,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/115789998816073013582\"\u003eBurger King\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDxCWneSF7-0P3m0mU4XHgcA1Mp5OCtG5bKf-sXpJLsj8yKfCV7HS47CKuC31bMinV0m2YNsGHxJyGZRBmvjwnczqc0d8Y4Knwx1xOtPWatpmA_qmtj1knlGxvxJaOxIAnTMMFNFLlT5MhkTpP21dSuLGzPpHSvDspsTpl_-yrbHDME1",
+               "photo_reference" : "AW30NDyNReWUcyAJIJXEL7wPkMptySJUJ1YxzcDteETjH-i2GQtoLP6G3vBC49Lkw3QxfdrUfhLs9yNVsuXTIeT3R30K3M8h8tBFs48A6v_UwQ-U_hY4XSXOMChCJU7A7EI3J1oQ_ndOn1RdcWmapfvWpbt_cDylyyurGtE7L4sJHRlpAGep",
                "width" : 1400
             }
          ],
@@ -764,7 +764,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/103560838413618233281\"\u003eRy&#39;s Bagels\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDwjDiFot6iiktm7QE2gzxVBAHivakeW2UPNG1v7r3sp_mb4aVWqrDtdVML90U6d4UawZ2zhHV-feyI7B__H-36cJ1EidkBysPRLY9iaNB9GDQOFU8_eyONqt2wY1q7kC2wBPY1_xQBQuSL2ddP3q3MmcUh5t-oEYnt2Q-c8uJT_9Z2B",
+               "photo_reference" : "AW30NDwWWfVcoR3pi6gQPG2bokuIHyDY8LNe-fCUZsEIXozm3vA901Jy_XK5G3kZ1cxKw8cuVDzjDaOeY8FbF1OYscc4sZ5ec3CGydFo9tmtfLGySZraV4OuHoIwPWPJrAkFblLQvz8skjBvVWZROx2sRf2Rq3G5xht0Y0_UgcIdEO-3u_GN",
                "width" : 512
             }
          ],
@@ -777,8 +777,8 @@
          "rating" : 4.1,
          "reference" : "ChIJ3zAvrxzXxokRd1GtEFmGDtY",
          "types" : [
-            "cafe",
             "bakery",
+            "cafe",
             "store",
             "restaurant",
             "food",
@@ -819,7 +819,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/105252512063047565548\"\u003eA Google User\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDyWvrD3JgfrR0bC8wh80YdObfZMeo-uqWMqoLGVIblV5D7LVf-HdMDB-n5x_2CLt7YJ5tKatuM5wWY4fSNo7ZzsWpAr8G1qcmj08bhMyok7h8MberjplzfgQJmUgMp1aPFzZGbjE8ZMzVXclX_F2uXtMOKZ8gR0NWOOhvbEZeTQdxsY",
+               "photo_reference" : "AW30NDxKo2zGGkOhVsVrqplNvpX7rdmq_DKcaKt30ykkdM-r1_klzuRWMNsJkg3h9Uovuv-zTGCHupKmSZ8PjPUhNt94-1Li1dUTVGyMZj3DxqZ-x9C0_vAi74tSd4dkHckdiESJAVKbM1NqF0x4kzfR1uAdsqaVe3VG_7gkfZMlDPMDBp6f",
                "width" : 3813
             }
          ],
@@ -857,7 +857,7 @@
          "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
          "name" : "Steve's Grilled Cheese and Quesadilla Company",
          "opening_hours" : {
-            "open_now" : false
+            "open_now" : true
          },
          "photos" : [
             {
@@ -865,7 +865,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/104840626185215451274\"\u003eA Google User\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDyqpPPMHgopFWSibAVO9W3zzrcKhe7Vd0SvsgKjtbct42tss6_oh9IS5Wx3kLlwDukCU_cgOytiS7cDohKRCasWKmnleyjjSZrenJwaB0lltTkGBUgzj33ngHQcAedHrcptjiBamH7unlh2pBK9P0giJv6uJ0UFczWNXeA0hSdQPY09",
+               "photo_reference" : "AW30NDxnURb94vcCQBJ0o-4t1jahpPK2ZSrqn64QklZxg8pMFbUaJt_gZWvszYobkkyOULECA_HQTA3-rc23-iBruh9KbmhaEilx8b-1kUQKFft7KF2ZgyVVn_15lePapgCOAZrvcv54941hZyS_7c4YDtpb6g4D7oThIDpqevWFjBlyzm8S",
                "width" : 2048
             }
          ],
@@ -912,7 +912,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/107141394150694616710\"\u003eN Mazzagatti\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDyvMPd33ehR5GDBr8BTEhJ1ZjDxG42uDuzmC6RGnPdQFPIkdRB9jzRU1AnFWDugCAoZOUKT7jGEFa5FW8I0diFC1Zsrrl1VwklXwKTb5l7cChJlKnpxhZMNNBWKqCs9ABs9IDPz-lEvaMlR0xJsUb7NQeF8CsfI4FZRrvhVFd0HvTrp",
+               "photo_reference" : "AW30NDyFk8IDKZaeTXVy2r_GG80U_2rrrABfvJfB1diJKE7Ni9mrsnzApKPMjNhUliBekKGAExoDMIJ1APU-3zJ8Og1jQr4gvxd76pBXccTG82pX2cGL5uU7YrbIOAhxnpNgMIF_ihX7t5rlzkG2_M3-pbzP7PyW3am1y4dZIVFjwn-7XbeB",
                "width" : 5344
             }
          ],
@@ -959,7 +959,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/114955121590293615350\"\u003eBagel Express Mini Mart\u003c/a\u003e"
                ],
-               "photo_reference" : "AW30NDxocJk4J46dk2I_0IuLJvW9R0tIxw-TIGi0uXOcBFn6Lvaejk-3Xp6C7gEeNUkeylBo9r2XEi9Kg0tik590bTor_IloRo05Q10iRtjx5OdFQGm3V5PupoGhcVZ4wZBIyr7we-NWsqusAUR80IB5jpKl4x50gRd7Yiot7DtvuQ50auXg",
+               "photo_reference" : "AW30NDw6V-7Zj-KeceGrL_rpWGhk9utxxqlogb2L0WAbkxX0cXMY7hax7ltIcI5yCi0HmNHDHr5KrpaUHRyXmt4RbgywEFNiyrWx8ozr6wplgWUPbGROHGB-SWx-0TRPyx4xcSUWFB-5IsrZiEBnIpCfx3UUTfzPnR8jUfBkUjhCJo4y_Pqp",
                "width" : 640
             }
          ],
