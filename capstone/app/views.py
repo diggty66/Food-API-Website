@@ -179,18 +179,19 @@ def nutritioning(request):
     if form.is_valid():
         form.save(commit=False)
         Nutritioninput = request.POST['Nutritioninput']
+        print(Nutritioninput)
         form.save()
         nutritioncode(Nutritioninput)
         if request.POST.get('OK') == 'OK':
             messages.success(request, "Search successful." )
-            return redirect('nutritioning')
+            #return redirect('nutritioning')
             #return render(request, 'app/googleresults.html', {'form' : form})
         else:    
             messages.error(request, "Unsuccessful Search. Invalid information.")
 
         assert isinstance(request, HttpRequest)
         
-        nutrition_data = Nutritionmodel.objects.all().order_by('-id').first()
+        nutrition_data = Nutritionmodel.objects.all().filter(resturaunt_name__iexact=Nutritioninput).order_by('-item_name')
         dic = {
             'nutrition_data': nutrition_data,
         }

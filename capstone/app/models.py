@@ -50,7 +50,7 @@ class GoogleInputmodel(models.Model):
         db_table = 'GoogleInputmodel'
 
 class Nutritionmodel(models.Model):
-    item_id = models.CharField(max_length = 100)
+    #item_id = models.CharField(max_length = 100)
     item_name = models.CharField(max_length = 100)
     resturaunt_name = models.CharField(max_length = 100)
     
@@ -60,7 +60,7 @@ class Nutritionmodel(models.Model):
         db_table = 'Food_Items'
 
     def __str__(self):
-        return f"{self.item_id}, {self.item_name}, {self.resturaunt_name}"
+        return f" {self.item_name}, {self.resturaunt_name}"
 
 
 
