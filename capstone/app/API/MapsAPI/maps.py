@@ -20,18 +20,18 @@ def googlecode(Foodinput):
     url = "https://maps.googleapis.com/maps/api/place/textsearch/json" 
     params = { 
         "query": Foodinput,
-        "location": "39.826781,-75.015446",
+        "location": "39.702892,-75.111839",
         "radius": "2000",
         "region": "US",
         "type": "food",
         "key": "AIzaSyD22ufr_NRQ6SRyaPjjZWlc5M5WttvjjsE"
     }    
     query_string = urllib.parse.urlencode( params ) 
-    url = url + "?" + query_string
+    url1 = url + "?" + query_string
     headers = {"Content-Type": "application/json"}
     print (url)
     print()
-    response = urllib.request.urlopen(url)
+    response = urllib.request.urlopen(url1)
     data = response.read().decode('UTF-8')
 
     #Write Json data to file to examine
