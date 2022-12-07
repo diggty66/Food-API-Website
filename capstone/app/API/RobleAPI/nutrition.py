@@ -13,7 +13,7 @@ def foodnutritioncode(Macroinput):
     response = requests.get(api_url, headers={'X-Api-Key': '94NlwilwGgEF0vQlagmVag==spsVNqhqSR9o5iTg'})
     if response.status_code == requests.codes.ok:
         print(response.json())
-
+    #
     else:
         print("Error:", response.status_code, response.text)
 

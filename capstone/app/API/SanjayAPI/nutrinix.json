@@ -1,556 +1,556 @@
 [
    {
-      "total": 6455,
-      "max_score": 1.9805746,
+      "total": 464,
+      "max_score": 1.9949253,
       "hits": [
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d0791eddeb47f84bffe7e",
-            "_score": 1.9805746,
+            "_id": "513fc9e73fe3ffd403001130",
+            "_score": 1.9949253,
             "fields": {
-               "item_id": "463d0791eddeb47f84bffe7e",
-               "item_name": "Crunchy Taco",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd403001130",
+               "item_name": "McDouble",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "15215220b111d52a19dc82b4",
-            "_score": 1.8385284,
+            "_id": "513fc9e73fe3ffd4030010a7",
+            "_score": 1.9480966,
             "fields": {
-               "item_id": "15215220b111d52a19dc82b4",
-               "item_name": "Nachos BellGrande - Chicken",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010a7",
+               "item_name": "Cheeseburger",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d0791ce23db7b78734e71",
-            "_score": 1.8221974,
+            "_id": "513fc9e73fe3ffd4030010e5",
+            "_score": 1.9480966,
             "fields": {
-               "item_id": "463d0791ce23db7b78734e71",
-               "item_name": "Crunchy Taco Supreme",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010e5",
+               "item_name": "Hamburger",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea5635e579d73b80aa0e3e",
-            "_score": 1.8221974,
+            "_id": "513fc9e73fe3ffd4030010fd",
+            "_score": 1.9480966,
             "fields": {
-               "item_id": "d3ea5635e579d73b80aa0e3e",
-               "item_name": "Soft Taco - Specialties",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010fd",
+               "item_name": "Hotcakes",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea5635d2e4c2079c799fee",
-            "_score": 1.8024893,
+            "_id": "513fc9e73fe3ffd4030010b2",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "d3ea5635d2e4c2079c799fee",
-               "item_name": "Crunchy Taco - Specialties",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010b2",
+               "item_name": "Chocolate Shake, Small",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea081427222cbccab44ec3",
-            "_score": 1.7905319,
+            "_id": "513fc9e73fe3ffd4030010c9",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "d3ea081427222cbccab44ec3",
-               "item_name": "Nachos Bell Grande",
-               "brand_name": "Taco Bell UK"
+               "item_id": "513fc9e73fe3ffd4030010c9",
+               "item_name": "Dr Pepper, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea081427ef5e8052fcdb25",
-            "_score": 1.7905319,
+            "_id": "513fc9e73fe3ffd4030010ca",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "d3ea081427ef5e8052fcdb25",
-               "item_name": "Fries Bell Grande",
-               "brand_name": "Taco Bell UK"
+               "item_id": "513fc9e73fe3ffd4030010ca",
+               "item_name": "Dr Pepper, Small",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "15214144245ac6fcc8ebf6c3",
-            "_score": 1.7782065,
+            "_id": "513fc9e73fe3ffd4030010f5",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "15214144245ac6fcc8ebf6c3",
-               "item_name": "Bell Tower Cerveza (12 oz)",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010f5",
+               "item_name": "Hot Chocolate, Small",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d0791bebfcf426f737fa9",
-            "_score": 1.7753005,
+            "_id": "513fc9e73fe3ffd40300110e",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "463d0791bebfcf426f737fa9",
-               "item_name": "Soft Taco - Beef",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd40300110e",
+               "item_name": "Iced Coffee, Large",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d0791b8ddfd262810bbbc",
-            "_score": 1.7753005,
+            "_id": "513fc9e73fe3ffd403001110",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "463d0791b8ddfd262810bbbc",
-               "item_name": "Soft Taco - Chicken",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd403001110",
+               "item_name": "Iced Coffee, Small",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "15211291496cebf98f2ae6ea",
-            "_score": 1.7613089,
+            "_id": "513fc9e73fe3ffd40300111b",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "15211291496cebf98f2ae6ea",
-               "item_name": "Beach Bell Beer (12 oz)",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd40300111b",
+               "item_name": "Iced Tea, Large",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "15211291ef8fbf2b004e07a0",
-            "_score": 1.7613089,
+            "_id": "513fc9e73fe3ffd40300118f",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "15211291ef8fbf2b004e07a0",
-               "item_name": "Beach Bell Beer (16 oz)",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd40300118f",
+               "item_name": "Sprite, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "152152206e190e89d8e7c117",
-            "_score": 1.7570107,
+            "_id": "513fc9e73fe3ffd403001196",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "152152206e190e89d8e7c117",
-               "item_name": "Nachos BellGrande - Steak",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd403001196",
+               "item_name": "Strawberry Shake, Large",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea56359b6fea5aa30c671e",
-            "_score": 1.7570107,
+            "_id": "c6408349fd55c0abb61fe946",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "d3ea56359b6fea5aa30c671e",
-               "item_name": "Nachos BellGrande - Beef",
-               "brand_name": "Taco Bell"
+               "item_id": "c6408349fd55c0abb61fe946",
+               "item_name": "Blueberry Muffin",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d0791913560364952006d",
-            "_score": 1.7531784,
+            "_id": "d3ea164034ef98c0396cbc14",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "463d0791913560364952006d",
-               "item_name": "Quesarito - Beef",
-               "brand_name": "Taco Bell"
+               "item_id": "d3ea164034ef98c0396cbc14",
+               "item_name": "Apple Fritter",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea56359733a83a4b9061e1",
-            "_score": 1.7531784,
+            "_id": "d3ea16407484c42dc950ce27",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "d3ea56359733a83a4b9061e1",
-               "item_name": "Beef Quesarito",
-               "brand_name": "Taco Bell"
+               "item_id": "d3ea16407484c42dc950ce27",
+               "item_name": "Mocha Latte, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d07918021dd6215d1be8c",
-            "_score": 1.7431967,
+            "_id": "d3ea16409105babe792a3bc5",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "463d07918021dd6215d1be8c",
-               "item_name": "Spicy Potato Soft Taco",
-               "brand_name": "Taco Bell"
+               "item_id": "d3ea16409105babe792a3bc5",
+               "item_name": "Mocha Latte, Large",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "152141447f8b7d5d22f58f10",
-            "_score": 1.7295563,
+            "_id": "d3ea1640f07b08ab979aefe6",
+            "_score": 1.7720242,
             "fields": {
-               "item_id": "152141447f8b7d5d22f58f10",
-               "item_name": "Bell Tower Cerveza (16 oz)",
-               "brand_name": "Taco Bell"
+               "item_id": "d3ea1640f07b08ab979aefe6",
+               "item_name": "Caramel Frappe, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea5635f9ba7eb75d43da01",
-            "_score": 1.7218885,
+            "_id": "513fc9e73fe3ffd40300109c",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "d3ea5635f9ba7eb75d43da01",
-               "item_name": "Nachos BellGrande - Specialties",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd40300109c",
+               "item_name": "Big Breakfast",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d079115a8d6cca6398aa2",
-            "_score": 1.6889431,
+            "_id": "513fc9e73fe3ffd4030010b3",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "463d079115a8d6cca6398aa2",
-               "item_name": "Hash Brown",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010b3",
+               "item_name": "Chocolate Shake, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d07915af988196455ab3d",
-            "_score": 1.6889431,
+            "_id": "513fc9e73fe3ffd4030010b8",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "463d07915af988196455ab3d",
-               "item_name": "Cheese Quesadilla",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010b8",
+               "item_name": "Coca-Cola, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d0791ada3913226c1bcd8",
-            "_score": 1.6889431,
+            "_id": "513fc9e73fe3ffd4030010be",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "463d0791ada3913226c1bcd8",
-               "item_name": "Quesadilla - Chicken",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010be",
+               "item_name": "Diet Coke, Large",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d0791c5ab68f37b96d161",
-            "_score": 1.6889431,
+            "_id": "513fc9e73fe3ffd4030010c0",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "463d0791c5ab68f37b96d161",
-               "item_name": "Quesarito - Steak",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010c0",
+               "item_name": "Diet Coke, Small",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "bd9d5213037b1750f6e5677b",
-            "_score": 1.6889431,
+            "_id": "513fc9e73fe3ffd4030010c5",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "bd9d5213037b1750f6e5677b",
-               "item_name": "Flybird Mangonada",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010c5",
+               "item_name": "Double Cheeseburger",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea441364ea95d1680d7dd9",
-            "_score": 1.6889431,
+            "_id": "513fc9e73fe3ffd4030010cb",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "d3ea441364ea95d1680d7dd9",
-               "item_name": "Vanilla Creamer",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010cb",
+               "item_name": "Egg McMuffin",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea56357f1fa361d50c98a3",
-            "_score": 1.6889431,
+            "_id": "513fc9e73fe3ffd40300110f",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "d3ea56357f1fa361d50c98a3",
-               "item_name": "Cinnamon Twists",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd40300110f",
+               "item_name": "Iced Coffee, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d07914c9102f1d23a32a7",
-            "_score": 1.6843274,
+            "_id": "513fc9e73fe3ffd403001111",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "463d07914c9102f1d23a32a7",
-               "item_name": "Black Beans",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd403001111",
+               "item_name": "Iced Mocha, Large",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "32f13411c0380ea3cfecbd83",
-            "_score": 1.6843274,
+            "_id": "513fc9e73fe3ffd40300111c",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "32f13411c0380ea3cfecbd83",
-               "item_name": "Nacho Fries",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd40300111c",
+               "item_name": "Iced Tea, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea5635b228620a35a4c140",
-            "_score": 1.6843274,
+            "_id": "513fc9e73fe3ffd403001123",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "d3ea5635b228620a35a4c140",
-               "item_name": "Quesadilla - Specialties",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd403001123",
+               "item_name": "Latte, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d07917ef73d219f49b15a",
-            "_score": 1.6700873,
+            "_id": "69240416576759399f369732",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "463d07917ef73d219f49b15a",
-               "item_name": "Bean Burrito",
-               "brand_name": "Taco Bell"
+               "item_id": "69240416576759399f369732",
+               "item_name": "Iced Latte, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d0791baf9e202caeb694b",
-            "_score": 1.6700873,
+            "_id": "d3ea1640140f906008eebea8",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "463d0791baf9e202caeb694b",
-               "item_name": "Quesarito - Chicken",
-               "brand_name": "Taco Bell"
+               "item_id": "d3ea1640140f906008eebea8",
+               "item_name": "Caramel Frappe, Small",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea5635f5bea0a72bcae008",
-            "_score": 1.6700873,
+            "_id": "d3ea164017b0d0ccfa0614eb",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "d3ea5635f5bea0a72bcae008",
-               "item_name": "Quesarito - Specialties",
-               "brand_name": "Taco Bell"
+               "item_id": "d3ea164017b0d0ccfa0614eb",
+               "item_name": "Cappuccino, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea56350f4301f4652a5735",
-            "_score": 1.6682441,
+            "_id": "d3ea1640761e9de57ecf5531",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "d3ea56350f4301f4652a5735",
-               "item_name": "Soft Taco Supreme - Beef",
-               "brand_name": "Taco Bell"
+               "item_id": "d3ea1640761e9de57ecf5531",
+               "item_name": "Caramel Macchiato, Large",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea56359420b15653926225",
-            "_score": 1.6682441,
+            "_id": "d3ea16408050e2aad54e3997",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "d3ea56359420b15653926225",
-               "item_name": "Soft Taco Supreme - Specialties",
-               "brand_name": "Taco Bell"
+               "item_id": "d3ea16408050e2aad54e3997",
+               "item_name": "Cinnamon Roll",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "d3ea5635cc0aaeb3ccb66463",
-            "_score": 1.6500812,
+            "_id": "d3ea16409b0bf6ba19299364",
+            "_score": 1.742697,
             "fields": {
-               "item_id": "d3ea5635cc0aaeb3ccb66463",
-               "item_name": "Soft Taco Supreme - Chicken",
-               "brand_name": "Taco Bell"
+               "item_id": "d3ea16409b0bf6ba19299364",
+               "item_name": "Cappuccino, Large",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d0791dfaf026fbb386616",
-            "_score": 1.639168,
+            "_id": "513fc9e73fe3ffd40300112f",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "463d0791dfaf026fbb386616",
-               "item_name": "Quesadilla - Steak",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd40300112f",
+               "item_name": "McChicken Sandwich",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d6746df6687f34c265d21",
-            "_score": 1.639168,
+            "_id": "513fc9e73fe3ffd403001179",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "463d6746df6687f34c265d21",
-               "item_name": "Orange Juice",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd403001179",
+               "item_name": "Sausage Burrito",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "c64028329f4e725a393376b8",
-            "_score": 1.639168,
+            "_id": "513fc9e73fe3ffd40300117a",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "c64028329f4e725a393376b8",
-               "item_name": "Water",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd40300117a",
+               "item_name": "Sausage McGriddles",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "bd9d52137f581c65b380af32",
-            "_score": 1.639168,
+            "_id": "513fc9e73fe3ffd40300119e",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "bd9d52137f581c65b380af32",
-               "item_name": "Flybird Mojito",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd40300119e",
+               "item_name": "Sweet Tea, Large",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d0791ddde16eb9e838046",
-            "_score": 1.6283529,
+            "_id": "513fc9e73fe3ffd4030011a3",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "463d0791ddde16eb9e838046",
-               "item_name": "Breakfast Crunchwrap - Steak",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030011a3",
+               "item_name": "Vanilla Shake, Small",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "152142861ab40820343c6698",
-            "_score": 1.6283529,
+            "_id": "513fc9e73fe3ffd4030010b4",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "152142861ab40820343c6698",
-               "item_name": "Budweiser (12 oz)",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010b4",
+               "item_name": "Chocolate Shake, Large",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "1521428693ff1a7e4be1e0a1",
-            "_score": 1.6283529,
+            "_id": "513fc9e73fe3ffd4030010b9",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "1521428693ff1a7e4be1e0a1",
-               "item_name": "Budweiser (16 oz)",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010b9",
+               "item_name": "Coca-Cola, Small",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "152195057599d42da5750406",
-            "_score": 1.6283529,
+            "_id": "513fc9e73fe3ffd4030010bf",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "152195057599d42da5750406",
-               "item_name": "Black Bean Quesarito",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010bf",
+               "item_name": "Diet Coke, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "bd9d5213c809bfff03808a0c",
-            "_score": 1.6283529,
+            "_id": "513fc9e73fe3ffd4030010f2",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "bd9d5213c809bfff03808a0c",
-               "item_name": "Flybird Lime Margarita",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd4030010f2",
+               "item_name": "Hot Caramel Sundae",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "c640429543ff11ddca5d1b8b",
-            "_score": 1.6283529,
+            "_id": "513fc9e73fe3ffd403001112",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "c640429543ff11ddca5d1b8b",
-               "item_name": "Rum (80 proof)",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd403001112",
+               "item_name": "Iced Mocha, Medium",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "c64042956ead8e998334bf6e",
-            "_score": 1.6283529,
+            "_id": "513fc9e73fe3ffd40300111d",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "c64042956ead8e998334bf6e",
-               "item_name": "Vodka (80 proof)",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd40300111d",
+               "item_name": "Iced Tea, Small",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d079112df69a887755f3e",
-            "_score": 1.6121578,
+            "_id": "513fc9e73fe3ffd403001124",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "463d079112df69a887755f3e",
-               "item_name": "Nacho Cheese Doritos Locos Taco",
-               "brand_name": "Taco Bell"
+               "item_id": "513fc9e73fe3ffd403001124",
+               "item_name": "Latte, Small",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "463d0791efd4f64b45cee4a9",
-            "_score": 1.6055324,
+            "_id": "d3ea1640104047b85ca8aa3d",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "463d0791efd4f64b45cee4a9",
-               "item_name": "Nacho Cheese Doritos Locos Taco Supreme",
-               "brand_name": "Taco Bell"
+               "item_id": "d3ea1640104047b85ca8aa3d",
+               "item_name": "Americano, Large",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "152134560cc64b7086369de2",
-            "_score": 1.6012547,
+            "_id": "d3ea1640aac1fb26ea4b34f3",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "152134560cc64b7086369de2",
-               "item_name": "Bean Crunchy Taco",
-               "brand_name": "Taco Bell Canada"
+               "item_id": "d3ea1640aac1fb26ea4b34f3",
+               "item_name": "Caramel Mocha, Small",
+               "brand_name": "McDonald's"
             }
          },
          {
             "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
             "_type": "item",
-            "_id": "1521345640445e9d8f5f89be",
-            "_score": 1.6012547,
+            "_id": "d3ea1640ab7fd2dee0cc8117",
+            "_score": 1.7023268,
             "fields": {
-               "item_id": "1521345640445e9d8f5f89be",
-               "item_name": "Beef Crunchy Taco",
-               "brand_name": "Taco Bell Canada"
+               "item_id": "d3ea1640ab7fd2dee0cc8117",
+               "item_name": "Mocha Frappe, Medium",
+               "brand_name": "McDonald's"
             }
          }
       ]
