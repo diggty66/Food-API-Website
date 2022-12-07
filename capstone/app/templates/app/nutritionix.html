@@ -1,16 +1,62 @@
 {% extends "app/layout.html" %}
-
+{% load static %}
 {% block content %}
+<style>
+    h2 {
+        text-align: center;
+    }
 
-<h2>{{ title }}</h2>
+    h1 {
+        text-align: center;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+<h2>Search the menus of your favorite resturaunts powered by the Nutritionix API</h2>
+
 <form name='NutritionForm' action="" class="post-form" method="post">
     {% csrf_token %}
-    <label for="Nutritioninput">Enter the resturaunt who's menu you want to view: </label>
+    <label for="Nutritioninput">Enter the resturaunt whose menu you want to view: </label>
     <input id="Nutritioninput" type="text" name="Nutritioninput" placeholder="Type..." value="{{ NutritionForm.Nutritioninput }}">
     <input type="submit" value="OK" name="OK">
 </form>
+<hr>
+<h3>Results</h3>
 
 
+<table>
+    <tr>
+        <th>Resturaunt Name</th>
+        <th>Menu Item</th>
+    </tr>
+    <tr>
+        {%   for g in nutrition_data   %}
+        <td>{{ g.resturaunt_name }}</td>
+        <td>{{ g.item_name }}</td>
+
+
+    </tr>
+    {%   endfor   %}
+
+
+</table>
+
+
+<!--
 <ul>
     <li>
         <td>{{ nutrition_data.item_id }}</td>
@@ -18,6 +64,5 @@
         <td>{{ nutrition_data.resturaunt_name }}</td>
     </li>
 </ul>
-
-
+    -->
     {% endblock %}
