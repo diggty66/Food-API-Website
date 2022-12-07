@@ -65,5 +65,5 @@ def db():
         cur.execute(sql, (item_id, item_name, resturaunt_name, ))
 
     #print(uno)
-        conn.commit()
+        conn.commit()#
     conn.close()

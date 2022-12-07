@@ -262,9 +262,9 @@
             "_id": "521b95ca4a56d006d578b6d4",
             "_score": 3.623145,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b6d4",
-               "item_name": "Coca-Cola Zero Sugar, Small",
-               "brand_name": "Wendy's"
+               "item_id": "15214286081b4138c435015f",
+               "item_name": "Heineken (12 oz)",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -273,9 +273,9 @@
             "_id": "521b95ca4a56d006d578b6da",
             "_score": 3.623145,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b6da",
-               "item_name": "Minute Maid Light Lemonade, Small",
-               "brand_name": "Wendy's"
+               "item_id": "69245542d4debd93c7478dbb",
+               "item_name": "Red Sangria - LV",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -284,9 +284,9 @@
             "_id": "521b95ca4a56d006d578b6e1",
             "_score": 3.623145,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b6e1",
-               "item_name": "10 Piece Chicken Nuggets",
-               "brand_name": "Wendy's"
+               "item_id": "c6407164074ff664e002e67b",
+               "item_name": "Breakfast Quesadilla - Steak",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -295,9 +295,9 @@
             "_id": "521b95ca4a56d006d578b720",
             "_score": 3.623145,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b720",
-               "item_name": "Baconator",
-               "brand_name": "Wendy's"
+               "item_id": "d3ea5635498493c9dae73847",
+               "item_name": "Hash Brown (V)",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -306,9 +306,9 @@
             "_id": "521b95ca4a56d006d578b725",
             "_score": 3.623145,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b725",
-               "item_name": "Son of Baconator",
-               "brand_name": "Wendy's"
+               "item_id": "d3ea683639ed0880f9243377",
+               "item_name": "Cheesy Fiesta Potatoes",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -317,9 +317,9 @@
             "_id": "521b95ca4a56d006d578b732",
             "_score": 3.623145,
             "fields": {
-               "item_id": "521b95ca4a56d006d578b732",
-               "item_name": "Chili, Small",
-               "brand_name": "Wendy's"
+               "item_id": "32f13411c0380ea3cfecbd83",
+               "item_name": "Nacho Fries",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -328,9 +328,9 @@
             "_id": "52cdcca3051cb9eb32004142",
             "_score": 3.623145,
             "fields": {
-               "item_id": "52cdcca3051cb9eb32004142",
-               "item_name": "All-Natural Lemonade, Large",
-               "brand_name": "Wendy's"
+               "item_id": "463d07914c9102f1d23a32a7",
+               "item_name": "Black Beans",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -339,9 +339,9 @@
             "_id": "52cdcca3051cb9eb32004147",
             "_score": 3.623145,
             "fields": {
-               "item_id": "52cdcca3051cb9eb32004147",
-               "item_name": "Coca-Cola, Large",
-               "brand_name": "Wendy's"
+               "item_id": "d3ea5635b228620a35a4c140",
+               "item_name": "Quesadilla - Specialties",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -350,9 +350,9 @@
             "_id": "52cdcca4051cb9eb3200415e",
             "_score": 3.623145,
             "fields": {
-               "item_id": "52cdcca4051cb9eb3200415e",
-               "item_name": "Barq's Root Beer, Medium",
-               "brand_name": "Wendy's"
+               "item_id": "463d07917ef73d219f49b15a",
+               "item_name": "Bean Burrito",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -361,9 +361,9 @@
             "_id": "52cdcca4051cb9eb32004160",
             "_score": 3.623145,
             "fields": {
-               "item_id": "52cdcca4051cb9eb32004160",
-               "item_name": "Coca-Cola Zero Sugar, Medium",
-               "brand_name": "Wendy's"
+               "item_id": "463d0791baf9e202caeb694b",
+               "item_name": "Quesarito - Chicken",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -372,9 +372,9 @@
             "_id": "52cdcca4051cb9eb32004165",
             "_score": 3.623145,
             "fields": {
-               "item_id": "52cdcca4051cb9eb32004165",
-               "item_name": "Dr Pepper, Medium",
-               "brand_name": "Wendy's"
+               "item_id": "d3ea5635f5bea0a72bcae008",
+               "item_name": "Quesarito - Specialties",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -383,9 +383,9 @@
             "_id": "52cdcca5051cb9eb320041eb",
             "_score": 3.623145,
             "fields": {
-               "item_id": "52cdcca5051cb9eb320041eb",
-               "item_name": "6 Piece Chicken Nuggets",
-               "brand_name": "Wendy's"
+               "item_id": "d3ea5635cc0aaeb3ccb66463",
+               "item_name": "Soft Taco Supreme - Chicken",
+               "brand_name": "Taco Bell"
             }
          },
          {
@@ -427,9 +427,9 @@
             "_id": "692455423ce19968714427a9",
             "_score": 3.623145,
             "fields": {
-               "item_id": "692455423ce19968714427a9",
-               "item_name": "Cheese Baked Potato",
-               "brand_name": "Wendy's"
+               "item_id": "1521345678be339dc91328f3",
+               "item_name": "Bean Crunchy Taco Supreme",
+               "brand_name": "Taco Bell Canada"
             }
          },
          {
@@ -438,9 +438,9 @@
             "_id": "ae4920261f192854c40e0387",
             "_score": 3.623145,
             "fields": {
-               "item_id": "ae4920261f192854c40e0387",
-               "item_name": "Sugar Cookie",
-               "brand_name": "Wendy's"
+               "item_id": "152134568325326a348081bc",
+               "item_name": "Bean Soft Taco",
+               "brand_name": "Taco Bell Canada"
             }
          },
          {
@@ -449,9 +449,9 @@
             "_id": "ae4920262561031c5abc391d",
             "_score": 3.623145,
             "fields": {
-               "item_id": "ae4920262561031c5abc391d",
-               "item_name": "Grilled Asiago Ranch Chicken Club",
-               "brand_name": "Wendy's"
+               "item_id": "d3ea081431ccd8ac3b459ae8",
+               "item_name": "Crunchy Taco Supreme - Beef",
+               "brand_name": "Taco Bell UK"
             }
          },
          {
@@ -460,9 +460,9 @@
             "_id": "ae4920263bcb6e18a8f1f586",
             "_score": 3.623145,
             "fields": {
-               "item_id": "ae4920263bcb6e18a8f1f586",
-               "item_name": "Jr. Classic Chocolate Frosty",
-               "brand_name": "Wendy's"
+               "item_id": "d3ea08148a37a752dbd1717b",
+               "item_name": "Soft Taco - Black Beans",
+               "brand_name": "Taco Bell UK"
             }
          },
          {
@@ -471,9 +471,9 @@
             "_id": "ae492026a2dfd702e84c0013",
             "_score": 3.623145,
             "fields": {
-               "item_id": "ae492026a2dfd702e84c0013",
-               "item_name": "Chocolate Chunk Cookie",
-               "brand_name": "Wendy's"
+               "item_id": "d3ea081492ae468eaf98e2e6",
+               "item_name": "Crunchy Taco - Grilled Chicken",
+               "brand_name": "Taco Bell UK"
             }
          },
          {
@@ -482,9 +482,9 @@
             "_id": "c640926471428e8d236e93c0",
             "_score": 3.623145,
             "fields": {
-               "item_id": "c640926471428e8d236e93c0",
-               "item_name": "Taco Salad",
-               "brand_name": "Wendy's"
+               "item_id": "d3ea0814b8a0f182799aba8d",
+               "item_name": "Crispy Chicken Soft Taco",
+               "brand_name": "Taco Bell UK"
             }
          },
          {
@@ -493,9 +493,9 @@
             "_id": "d3ea563438ea5f3c39d99094",
             "_score": 3.623145,
             "fields": {
-               "item_id": "d3ea563438ea5f3c39d99094",
-               "item_name": "10 Piece Spicy Chicken Nuggets",
-               "brand_name": "Wendy's"
+               "item_id": "d3ea0814d7be5a6b9d16f136",
+               "item_name": "Crunchy Taco - Black Beans",
+               "brand_name": "Taco Bell UK"
             }
          },
          {
