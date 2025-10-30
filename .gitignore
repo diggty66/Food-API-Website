@@ -145,6 +145,8 @@ staticfiles/
 # Environment variables #
 .env
 .env.*
+secrets.json
+**/secrets.json
 
 # OS-specific #
 .DS_Store
@@ -152,4 +154,3 @@ Thumbs.db
 
 # Node / front-end builds (if ever added)
 node_modules/
-capstone/capstone/settings/secrets.json
