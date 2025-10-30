@@ -1,5 +1,5 @@
 from django.urls import re_path, path
-from app import views
+from capstone.app import views
 from .API.YelpAPI.yelp import yelp_main, query_api
 from .API.MapsAPI.maps import googlecode
 from .API.SanjayAPI.nutrinix import nutritioncode

@@ -137,3 +137,19 @@ GitHub.sublime-settings
 .history
 debug.log
 debug.log
+
+# Render & Deployment #
+staticfiles/
+*.sqlite3
+
+# Environment variables #
+.env
+.env.*
+
+# OS-specific #
+.DS_Store
+Thumbs.db
+
+# Node / front-end builds (if ever added)
+node_modules/
+capstone/capstone/settings/secrets.json

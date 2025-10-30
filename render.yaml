@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: food-api-website
+    env: python
+    plan: free
+    buildCommand: |
+      pip install -r requirements.txt
+      python manage.py collectstatic --noinput
+      python manage.py migrate
+    startCommand: gunicorn capstone.capstone.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: capstone.capstone.settings.production
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: SECRET_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: EMAIL_USER
+        sync: false
+      - key: EMAIL_PASS
+        sync: false
+      - key: YELP_CLIENT_ID
+        sync: false
+      - key: YELP_CLIENT_SECRET
+        sync: false

@@ -9,7 +9,7 @@ import sqlite3
 from urllib.parse import quote
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render, redirect
-from app.models import Business
+from capstone.app.models import Business
 from django.shortcuts import get_object_or_404
 from django.http import HttpResponseRedirect, HttpResponse
 
