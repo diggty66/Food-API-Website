@@ -56,13 +56,18 @@ DATABASES = {
 }
 
 # --------------------------
-# STATIC FILES
+# STATIC FILES (Render / WhiteNoise)
 # --------------------------
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATIC_URL = "/static/"
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
+# Whitenoise handles static assets for production
+STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 MIDDLEWARE.insert(1, "whitenoise.middleware.WhiteNoiseMiddleware")
+
+# Optionally skip compressing binary files
+WHITENOISE_SKIP_COMPRESS_EXTENSIONS = ["png", "jpg", "jpeg", "gif", "woff", "woff2", "eot", "ttf", "svg"]
+
 
 # --------------------------
 # LOGGING
